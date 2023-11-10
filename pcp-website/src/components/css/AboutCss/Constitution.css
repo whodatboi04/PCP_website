@@ -1,0 +1,91 @@
+.cons-container{
+    display:flex;
+    justify-content: center;
+    gap: 4rem;
+    background-color: #572525;
+    padding: 5rem;
+    margin-top: 5rem;
+}
+
+.consti-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.consti-content{
+    margin-top: 2rem;
+}
+
+.consti-content h2{
+    font-size: 28px;
+    font-weight: 550;
+    color: #fff;
+}
+
+.consti-content a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 1.5rem;
+    font-size: 14px;
+}
+
+.consti-content button{
+    border: none;
+    background-color: #F3F3F3;
+    padding: 7px 15px;
+    border-radius: 20px;
+}
+
+.consti-content button:hover{
+    background-color: #E3E3E3;
+}
+
+.consti-wrapper img{
+    width: 20rem;
+    height: 30rem;
+}
+
+.train-insti-wrapper{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.train-insti-wrapper img{
+    width: 20rem;
+    height: 30rem;
+}
+
+.train-insti-wrapper h2{
+    color:#fff;
+    font-size: 28px;
+    font-weight: 550;
+    text-align: end;
+}
+
+.train-insti-content{
+    position: relative;
+    top: 5rem;
+}
+
+.train-insti-content a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 1.5rem;
+    font-size: 14px;
+}
+
+.train-insti-content button{
+    border: none;
+    background-color: #F3F3F3;
+    padding: 7px 15px;
+    border-radius: 20px;
+} 
+
+.train-insti-content button:hover{
+    background-color: #E3E3E3;
+}

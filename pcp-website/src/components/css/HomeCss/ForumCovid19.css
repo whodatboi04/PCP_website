@@ -1,0 +1,59 @@
+
+.forum-container{
+    width: 550px;
+    background-color: #EEEE;
+    padding: 10px;  
+    height: 670px;
+}
+
+.forum-container h1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 550;
+    color: #414141;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.forum-carousel{
+    width: 300px;
+    margin: 0 auto;
+    height: 400px;
+}
+
+.forum-carousel-item img{
+    width: 100%;
+    max-height: 700px;
+    height: 400px;
+}
+
+.forum-btn{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 420px;
+    top: 3.2rem;
+    left: -1.5rem;
+}
+
+.forum-btn button{
+    border: none;
+    padding: 10px 50px;
+    opacity: 0;
+    box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
+    width: 200px;
+}
+
+
+.forum-btn-hover button{
+    opacity: 0.8;
+    background-color: #fff;
+}
+
+.Carousel-cap a{
+    text-decoration: none;
+}
+
+

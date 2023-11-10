@@ -1,0 +1,46 @@
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F8F8F8;
+    
+}
+
+footer img{
+    width: 16rem;
+    height: 16rem;
+}
+
+.footer-info{
+
+    text-align:center;
+    padding: 20px;
+}
+
+.footer-info h2{
+    font-size: 32px;
+    margin-top: 1.5rem;
+}
+
+.footer-info p{
+    font-size: 12px;
+}
+
+.footer-info .copyright{
+    font-size: 11px;
+}
+
+.footer-info span{
+    color: #7E7E7E;
+}
+
+.footer-icons{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    font-size: 25px;
+}
+
+.footer-icons a{
+    color: black;
+}
+

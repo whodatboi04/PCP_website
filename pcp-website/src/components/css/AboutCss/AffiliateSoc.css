@@ -1,0 +1,26 @@
+.affil-container{
+    margin-top: 4rem;
+    border: 1px solid black;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.affil-container h1{
+    font-weight: 550;
+    font-size: 30px;
+}
+
+.affil-container button{
+    border: none;
+    padding: 10px 70px;
+    border-radius: 28px;
+    background-color: #572525;
+    color: #fff;
+}
+
+.affil-container button:hover{
+    background-color: #4F1D1D;
+}

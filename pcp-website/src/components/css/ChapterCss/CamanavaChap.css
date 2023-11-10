@@ -1,0 +1,77 @@
+.camanava-containter{
+    background-color: #FDFDF7;
+}
+
+.camanava-containter h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 550;
+    padding-top: 2.5rem;
+    color: #5B1E1E;
+}
+
+.camanava-containter h3{
+    font-size: 22px;
+    text-align: center;
+    color: #2f2f2f;
+}
+
+.camanava-content {
+    padding: 1.5rem 10rem;
+}
+
+.camanava-content p{
+    font-size: 14px;
+}
+
+.camanava-info span, .camanava-bank span{
+    font-weight: 550;
+    color: #5B1E1E;
+}
+
+.camanava-bank h4{
+    font-size: 18px;
+    text-decoration: underline;
+    font-weight: 550;
+    color: #5B1E1E;
+    margin-bottom: 1rem;
+}
+
+.camanava-main-table h4{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 550;
+    color: #5B1E1E;
+}
+
+.camanava-officers{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.camanava-officer-table{
+    max-width: 65rem;
+}
+
+.camanava-officer-table th {
+    text-align: right; 
+    padding-right: 20rem; 
+}
+
+.camanava-officer-table tr{
+    border-bottom: 1px solid black;
+}
+
+.camanava-officer-table td{
+    padding: 10px;
+}
+
+
+.camanava-officer-table tbody{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+

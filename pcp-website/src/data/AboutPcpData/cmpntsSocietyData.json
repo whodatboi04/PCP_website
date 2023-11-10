@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "title": "1. Philippine College of Chest Physicians",
+        "link": "http://www.philchest.org/"
+    },
+
+    {
+        "id": 2,
+        "title": "2. Philippine Heart Association",
+        "link": "https://www.philheart.org/"
+    },
+
+    {
+        "id": 3,
+        "title": "3. Philippine Rheumatology Association",
+        "link": "http://ww1.rheumatology.org.ph/"
+    },
+
+    {
+        "id": 4,
+        "title": "4. Philippine Society of Allergy, Asthma and Immunology",
+        "link": "https://psaai.mdpie.com/"
+    },
+
+    {
+        "id": 5,
+        "title": "5. Philippine College of Endocrinology Diabetes and Metabolism",
+        "link": "https://endo-society.org.ph/"
+    },
+
+    {
+        "id": 6,
+        "title": "6. Philippine Society of Gastroenterology",
+        "link": "https://psgastro.org/"
+    },
+
+    {
+        "id": 7,
+        "title": "7. Philippine College of Geriatric Medicine",
+        "link": "http://www.philippinegeriatrics.org/"
+    },
+
+    {
+        "id": 8,
+        "title": "8. Philippine College of Hematology and Transfusion Medicine",
+        "link": "https://pchtm.org/"
+    },
+
+    {
+        "id": 9,
+        "title": "9. Philippine Society of Medical Oncology",
+        "link": "https://psmo.org.ph/"
+    },
+
+    {
+        "id": 10,
+        "title": "10. Philippine Society for Microbiology and Infectious Diseases",
+        "link": "http://ww12.psmid.org.ph/"
+    },
+
+    {
+        "id": 11,
+        "title": "11. Philippine Society of Nephrology",
+        "link": "https://psn.org.ph/"
+    }
+]

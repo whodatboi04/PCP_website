@@ -1,0 +1,30 @@
+.history-title{
+    font-size: 35px;
+    font-weight: 550;
+    color: #420505;
+}
+
+.history-title span{
+    color: #B4B802;
+}
+
+.history-modal-body{
+    padding: 3rem;
+}
+
+.history-modal-body h4{
+    font-size: 28px;
+    color: #420505;
+    margin-bottom: 1.5rem;
+}
+
+.history-modal-body p{
+    font-size: 14px;
+}
+
+.history-modal-btn{
+    border:none;
+    padding: 5px 20px;
+    background-color: #420505;
+    color: #fff;
+}

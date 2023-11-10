@@ -1,0 +1,72 @@
+*{
+    font-family: 'Poppins', 'sans-serif';
+}
+
+.Covid-container{
+    position: relative;
+    max-width: 75rem;
+    margin: 0 auto;
+}
+
+.Covid-container h1{
+    font-size: 38px;
+    font-weight: 800;
+    color: #383838;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.Covid-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon{
+    width: 25rem;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.icon img{
+    width: 65px;
+    margin: 0 auto;
+}
+
+.icon h3{
+    font-weight: 600;
+    color: #4D4D4D;
+    margin-top: 2rem;
+    font-size: 20px;
+}
+
+.icon p{
+    color: #4D4D4D;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.icon a{
+    text-decoration: none;
+    color: #420505;
+    font-size: 14px;
+    position: relative;
+    max-width: 77px;
+}
+
+.icon a::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0; 
+    height: 1px;
+    background-color: #420505;
+    transition: width 0.2s ease-out;
+}
+
+.icon a:hover::before{
+    width: 100%;
+}
+

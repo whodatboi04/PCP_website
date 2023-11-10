@@ -1,0 +1,41 @@
+.PCP-book-container{
+    display:flex;
+    justify-content: center;
+    background-color: #572525;
+    padding: 4rem 7rem;
+    gap: 10rem
+}
+
+.book img{
+    width: 45rem;
+}
+
+.book-content{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 12rem;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+}
+
+.book-content span{
+    color: #FAFF00;
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+.book-content h1{
+    font-weight: 550;
+    font-size: 36px;
+}
+
+.book-content button{
+    border: none;
+    border-radius: 28px;
+    width: 140px;
+    padding: 10px;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+.book-content button:hover{
+    background-color: #E4E4E4;
+}

@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1,
+        "title": "1. Diabetes Philippines",
+        "link": "https://diabetesphil.org/"
+    },
+
+    {
+        "id": 2,
+        "title": "2. Philippine Dermatological Society",
+        "link": "https://www.pds.org.ph/"
+    },
+
+    {
+        "id": 3,
+        "title": "3. Philippine Neurological Association",
+        "link": "http://philneuro.org/"
+    },
+
+    {
+        "id": 4,
+        "title": "4. Philippine Society of Nuclear Medicine",
+        "link": "https://psnm.ph/"
+    },
+
+    {
+        "id": 5,
+        "title": "5. Philippine Society of General Internal Medicine",
+        "link": "https://psgim.net/"
+    }
+]

@@ -1,0 +1,71 @@
+.marikina-containter{
+    background-color: #FDFDF7;
+}
+
+.marikina-containter h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 550;
+    padding-top: 2.5rem;
+    color: #5B1E1E;
+}
+
+.marikina-content {
+    padding: 1.5rem 10rem;
+}
+
+.marikina-content p{
+    font-size: 14px;
+}
+
+.marikina-info span, .marikina-bank span{
+    font-weight: 550;
+    color: #5B1E1E;
+}
+
+.marikina-bank h4{
+    font-size: 18px;
+    text-decoration: underline;
+    font-weight: 550;
+    color: #5B1E1E;
+    margin-bottom: 1rem;
+}
+
+.marikina-main-table h4{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 550;
+    color: #5B1E1E;
+}
+
+.marikina-officers{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.marikina-officer-table{
+    max-width: 65rem;
+}
+
+.marikina-officer-table th {
+    text-align: right; 
+    padding-right: 20rem; 
+}
+
+.marikina-officer-table tr{
+    border-bottom: 1px solid black;
+}
+
+.marikina-officer-table td{
+    padding: 10px;
+}
+
+
+.marikina-officer-table tbody{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+

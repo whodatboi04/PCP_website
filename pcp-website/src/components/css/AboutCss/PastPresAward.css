@@ -1,0 +1,60 @@
+.past-container{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    gap: 25rem;
+    height: 15rem;
+    align-items: center;
+}
+
+.past-president{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.past-president h1{
+    font-size: 30px;
+    font-weight: 550;
+}
+
+.past-president button{
+    width: 10rem;
+    margin: 2rem auto;
+    border: none;
+    padding: 5px;
+    border-radius: 28px;
+    background-color: #572525;
+    color: #fff;
+}
+
+.past-president button:hover{
+    background-color: #4F1D1D;
+}
+
+.past-awardees{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.past-awardees h1{
+    font-size: 30px;
+    font-weight: 550;
+    text-align: center;
+}
+
+.past-awardees button{
+    width: 10rem;
+    margin: 2rem auto;
+    border: none;
+    padding: 5px;
+    border-radius: 28px;
+    background-color: #572525;
+    color: #fff;
+}
+
+.past-awardees button:hover{
+    background-color: #4F1D1D;
+}

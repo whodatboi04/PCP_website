@@ -1,0 +1,26 @@
+
+
+.org-modal-body{
+    padding: 3rem;
+}
+
+.org-modal-body h4{
+    font-size: 28px;
+    color: #420505;
+    margin-bottom: 1.5rem;
+}
+
+.org-modal-body span{
+    color: #B4B802;
+}
+
+.org-modal-body p{
+    font-size: 14px;
+}
+
+.org-modal-btn{
+    border:none;
+    padding: 5px 20px;
+    background-color: #420505;
+    color: #fff;
+}

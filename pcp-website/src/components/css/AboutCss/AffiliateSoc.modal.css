@@ -1,0 +1,34 @@
+.society-modal-body{
+    padding: 3rem;
+}
+
+.society-modal-body h4{
+    font-size: 28px;
+    color: #420505;
+    margin-bottom: 1.5rem;
+}
+
+.society-modal-body p{
+    font-size: 14px;
+}
+
+.society-modal-btn{
+    border:none;
+    padding: 5px 20px;
+    background-color: #420505;
+    color: #fff;
+}
+
+.affiliate-soc a{
+    margin-left: 1.5rem;
+    color: red;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.components-soc a{
+    margin-left: 1.5rem;
+    color: red;
+    text-decoration: none;
+    font-size: 14px;
+}

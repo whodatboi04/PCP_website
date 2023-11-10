@@ -1,0 +1,33 @@
+.HWM-modal-body{
+    padding: 3rem;
+}
+
+.HWM-modal-body h2{
+    font-size: 30px;
+    color: #420505;
+    margin-bottom: 1.5rem;
+}
+
+.HWM-modal-body p{
+    font-size: 14px;
+}
+
+.HWM-submission{
+    margin-left: 1.5rem;
+}
+
+.HWM-body-content{
+    margin-left: 1.5rem;
+}
+
+.HWM-modal-body h3{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.HWM-modal-btn{
+    border:none;
+    padding: 5px 20px;
+    background-color: #420505;
+    color: #fff;
+}

@@ -1,0 +1,28 @@
+.exam-ref-modal-body{
+    padding: 3rem;
+}
+
+.exam-ref-modal-body h2{
+    font-size: 30px;
+    color: #420505;
+    margin-bottom: 1.5rem;
+}
+
+.exam-ref-modal-body a{
+    font-size: 14px;
+    color: #F39494;
+    text-align: justify;
+}
+
+.exam-ref-modal-body a:hover{
+    color: #7299FF;
+}
+
+
+.exam-ref-modal-btn{
+    border:none;
+    padding: 5px 20px;
+    background-color: #420505;
+    color: #fff;
+}
+

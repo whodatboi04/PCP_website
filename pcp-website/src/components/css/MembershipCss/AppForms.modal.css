@@ -1,0 +1,70 @@
+.app-forms-modal-body{
+    padding: 4rem 7rem;
+}
+
+.app-forms-modal-body h2{
+    font-size: 30px;
+    color: #420505;
+    margin-bottom: 1.5rem;
+}
+
+.app-forms-modal-body p{
+    font-size: 14px;
+}
+
+.app-forms-body-content{
+    margin-left: 1.5rem;
+}
+
+.app-forms-modal-body h3{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.app-forms-modal-btn{
+    border:none;
+    padding: 5px 20px;
+    background-color: #420505;
+    color: #fff;
+}
+
+.app-forms-modal-body li{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    font-size: 14px;
+}
+
+.forms-transfer{
+    margin-left: 2.5rem;
+    margin-top: 1rem;
+}
+
+.app-forms-modal-body span{
+    text-decoration: underline;
+    font-weight: 550;
+}
+
+.letter-request .psa-copy{
+    font-size: 10px;
+    font-weight: 300;
+    text-decoration:none;
+    color: #6A6A6A;
+}
+
+.letter-request{
+    margin-left: 1rem;
+}
+
+.app-forms-modal-body .forms-file{
+    color: #FB5151;
+}
+
+.app-forms-modal-body .via-email{
+    text-decoration: none;
+    color: #33cccc;
+
+}
+
+.letter-request{
+    margin-left: 2rem;
+}

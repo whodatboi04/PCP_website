@@ -1,0 +1,116 @@
+.HmoMediaForum-container{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    gap: 4rem;
+    max-width: 75rem;
+    margin: 4rem auto 0 auto;
+}
+
+
+.HMO{
+    max-width: 750px;
+    position: relative;
+}
+
+.HMO h1{
+    font-weight: 550;
+    color: #666;
+    text-align: center;
+    margin: 25px;
+    font-size: 30px;
+}
+
+.HMO-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.HMO-folder{
+    position: relative;
+}
+
+.HMO-folder h2{
+    font-weight: 550;
+    text-align: center;
+    font-size: 23px;
+}
+
+.folder-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.folder-wrapper{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.folder-wrapper a{
+    font-size: 15px;
+    margin-left: 10px;
+    text-decoration:none;
+    color: black;
+}
+
+.Media-container{
+    position: relative;
+    margin-top: 4rem;
+    
+}
+
+.Media-container h1{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: 550;
+    color: #666;
+    font-size: 25px;
+}
+
+.Media-Carousel{
+    max-width: 330px;
+    
+}
+
+.Media-Carousel img{
+    width: 100%;
+    height: 200px;
+}
+
+.HMOMedia-wrapper{
+    max-width: 750px;
+    padding: 20px;
+}
+
+.media-learnMore-btn{
+    position: absolute;
+    right: .5;
+    bottom: .5rem;
+    width: 400px;
+    height: 560px;
+    
+}
+
+.media-learnMore-btn button{
+    border: none;
+    padding: 10px 50px;
+    opacity: 0;
+    box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
+    width: 200px;
+    margin-top: 24.5rem;
+    margin-right: 40px;
+}
+
+.media-learnMore-btn button a{
+    text-decoration: none;
+    color: black;
+}
+
+.media-learnMore-btn-hover button{
+    opacity: 0.8;
+    background-color: #fff;
+}
+
+

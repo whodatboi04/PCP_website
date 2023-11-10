@@ -1,0 +1,24 @@
+.operation-modal-body{
+    padding: 3rem;
+}
+
+.operation-modal-body h4{
+    font-size: 28px;
+    color: #420505;
+    margin-bottom: 1.5rem;
+}
+
+.operation-modal-body span{
+    color: #B4B802;
+}
+
+.operation-modal-body p{
+    font-size: 14px;
+}
+
+.operation-modal-btn{
+    border:none;
+    padding: 5px 20px;
+    background-color: #420505;
+    color: #fff;
+}

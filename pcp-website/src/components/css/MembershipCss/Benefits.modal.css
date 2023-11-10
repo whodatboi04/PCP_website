@@ -1,0 +1,25 @@
+.benefits-modal-body{
+    padding: 3rem;
+}
+
+.benefits-modal-body h2{
+    font-size: 30px;
+    color: #420505;
+    margin-bottom: 1.5rem;
+}
+
+.benefits-modal-body p{
+    font-size: 14px;
+}
+
+.benefits-modal-body h3{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.benefits-modal-btn{
+    border:none;
+    padding: 5px 20px;
+    background-color: #420505;
+    color: #fff;
+}

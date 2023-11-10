@@ -1,0 +1,236 @@
+.moreInfo-container{
+    margin-top: 4rem;
+}
+
+.moreInfo-wrapper a:hover{
+    color: #FF7272;
+}
+
+
+
+.info-content{
+    display: flex;
+    justify-content: center;
+}
+
+.info-content div{
+    width: 100%;
+}
+
+
+.exam-ref{
+    border:none;
+    background-color: transparent;
+    font-size: 14px;
+    margin-left: -1.3rem;
+    color: #6A6A6A;
+    text-decoration: underline;
+}
+
+
+.moreInfo-container h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 105px;
+    text-align: center;
+    letter-spacing: 0.14em;
+    color: #510606;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.update-wrapper, .info-payment-form, 
+.info-application-form, .info-dl-forms{
+    border: 1px solid black;
+    padding: 25px;
+}
+
+.info-update-form {
+    display: flex;
+    justify-content: center;
+}
+
+.update-wrapper {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+}
+
+.update-wrapper img {
+    width: 20rem;
+    margin-bottom: 1rem;
+}
+
+
+.update-wrapper h2{
+    font-size: 20px;
+    font-weight: 550;
+    text-align: center;
+}
+
+.update-wrapper a{
+    text-decoration: none;
+    color: #420505;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.update-icon{
+    font-size: 12px;
+}
+
+.info-payment-form h2{
+    font-size: 23px;
+    font-weight: 550;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.info-payment-form h3{
+    font-weight: 550;
+    font-size: 23px;
+    margin-bottom: 1.5rem;
+}
+
+.info-payment-form p{
+    font-size: 14px;
+}
+
+.info-payment-form span{
+    text-decoration: underline;
+}
+
+.payment-icon{
+    font-size: 14px;
+}
+
+.info-payment-form a{
+    text-decoration: none;
+    color: #420505;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.info-application-form{
+    display: flex;
+    flex-direction: column;
+    width: 26rem;
+}
+
+.info-application-form .diplomate-forms{
+    display: flex;
+    flex-direction: column;
+    max-width: 18.3rem;
+    position: relative;
+}
+
+.diplomate-forms button:hover{
+    color: #FF7272;
+}
+
+.info-application-form a{
+    margin-left: 1.5rem;
+    font-size: 14px;
+    color: #6A6A6A;
+
+}
+
+.info-application-form h2{
+    font-weight: 550;
+    font-size: 23px;
+}
+
+.info-application-form h3{
+    margin-top: 1rem;
+    font-weight: 550;
+    font-size: 23px;
+}
+
+.application-icon{
+    font-size: 15px;
+}
+
+.info-dl-forms h2{
+    font-weight: 550;
+    font-size: 23px;
+}
+
+.info-dl-forms p{
+    margin-top: 1.5rem;
+    font-size: 14px;
+    max-width: 28.7rem;
+}
+
+.info-dl-forms button{
+    border: none;
+    background-color: transparent;
+    margin-top: 1.5rem;
+    font-size: 14px;
+    position: relative;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    
+}
+
+.info-dl-forms button:hover {
+    color: white; 
+    transition: width 0.3s ease-out;
+}
+
+.info-dl-forms button::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0; 
+    height: 42px;
+    background-color: #420505;
+    transition: width 0.3s ease-out; 
+    z-index: -1;
+}
+
+.info-dl-forms button:hover::before{
+    width: 100%;
+}
+
+
+.program-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.info-membership, .info-assistance{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 10.4rem;
+    width: 100%;
+}
+
+.program-wrapper img{
+    width: 25rem
+}
+
+.program-wrapper a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #420505;
+    margin-top: 1.5rem;
+}
+

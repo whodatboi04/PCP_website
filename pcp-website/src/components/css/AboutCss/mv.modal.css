@@ -1,0 +1,25 @@
+.mv-modal-body{
+    padding: 3rem;
+}
+
+.mv-modal-body h4{
+    font-size: 28px;
+    color: #B4B802;
+    margin-bottom: 1.5rem;
+    
+}
+
+.mv-modal-body span{
+    color: #420505;
+}
+
+.mv-modal-body p{
+    font-size: 14px;
+}
+
+.mv-modal-btn{
+    border:none;
+    padding: 5px 20px;
+    background-color: #420505;
+    color: #fff;
+}

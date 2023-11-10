@@ -1,0 +1,29 @@
+.Diplo-modal-body{
+    padding: 3rem;
+}
+
+.Diplo-modal-body h2{
+    font-size: 30px;
+    color: #420505;
+    margin-bottom: 1.5rem;
+}
+
+.Diplo-modal-body p{
+    font-size: 14px;
+}
+
+.Diplo-body-content{
+    margin-left: 1.5rem;
+}
+
+.Diplo-modal-body h3{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.Diplo-modal-btn{
+    border:none;
+    padding: 5px 20px;
+    background-color: #420505;
+    color: #fff;
+}

@@ -1,0 +1,24 @@
+.member-modal-body{
+    padding: 3rem;
+}
+
+.member-modal-body h2{
+    font-size: 30px;
+    color: #420505;
+    margin-bottom: 1.5rem;
+}
+
+.member-body-content{
+    margin-left: 1.5rem;
+}
+
+.member-modal-body p{
+    font-size: 14px;
+}
+
+.member-modal-btn{
+    border:none;
+    padding: 5px 20px;
+    background-color: #420505;
+    color: #fff;
+}

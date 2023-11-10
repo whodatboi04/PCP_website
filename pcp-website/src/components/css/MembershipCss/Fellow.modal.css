@@ -1,0 +1,25 @@
+.fellow-modal-body{
+    padding: 3rem;
+}
+
+.fellow-modal-body h2{
+    font-size: 30px;
+    color: #420505;
+    margin-bottom: 1.5rem;
+}
+
+.fellow-modal-body p{
+    font-size: 14px;
+}
+
+.fellow-modal-body h3{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.fellow-modal-btn{
+    border:none;
+    padding: 5px 20px;
+    background-color: #420505;
+    color: #fff;
+}
