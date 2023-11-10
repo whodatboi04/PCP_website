@@ -22,6 +22,12 @@ import PasayData from "./data/ChaptersData/PasayData.json"
 import PasajmanData from "./data/ChaptersData/PasajmanData.json"
 import PamunlasData from "./data/ChaptersData/PamunlasData.json"
 import QuezonCityData from "./data/ChaptersData/QuezonCityData.json"
+import BicolChap from "./pages/RegionalChapters/SouthLuzon/BicolChap";
+import RizalChap from "./pages/RegionalChapters/SouthLuzon/RizalChap";
+import SouthernLuzonChap from "./pages/RegionalChapters/SouthLuzon/SouthernLuzonChap";
+import BicolData from "./data/ChaptersData/BicolData.json"
+import RizalData from "./data/ChaptersData/RizalData.json"
+import SouthernLuzonData from "./data/ChaptersData/SouthernLuzonData.json"
 
 
 function App() {
@@ -49,54 +55,53 @@ function App() {
           {/* Regional Chapters */}
             <Route
               path="/Chapters/Camanava"
-              element={<CamanvaChap
-                        props={CamanavaData}
-                      />}
+              element={<CamanvaChap props={CamanavaData}/>}
             />
             <Route
               path="/Chapters/Marikina"
-              element={<MarikinaChap
-                        props={MarikinaData}
-                      />}
+              element={<MarikinaChap props={MarikinaData}/>}
             />
             <Route
               path="/Chapters/Pasay"
-              element={<PasayChap
-                      props={PasayData}
-                      />}
+              element={<PasayChap props={PasayData}/>}
             />
             <Route
               path="/Chapters/Pasjman"
-              element={<PasjmanChap
-                        props={PasajmanData}
-              />}
+              element={<PasjmanChap props={PasajmanData}/>}
             />
             <Route
               path="/Chapters/Quezon-City"
-              element={<QuezonCityChap
-                        props={QuezonCityData}
-                      />}
+              element={<QuezonCityChap props={QuezonCityData}/>}
             />
             <Route
               path="/Chapters/Manila"
-              element={<ManilaChap
-                        props={ManilaData}
-                      />}
+              element={<ManilaChap props={ManilaData}/>}
             />
             <Route
               path="/Chapters/Matapat"
-              element={<MatapatChap
-                        props={MatapatData}
-                      />}
+              element={<MatapatChap props={MatapatData}/>}
             />
             <Route
               path="/Chapters/Pamunlas"
-              element={<PamunlasChap
-                        props={PamunlasData}
-                      />}
+              element={<PamunlasChap props={PamunlasData}/>}
             />
           {/* Regional Chapters End */}
+          {/* Provincial Chapters */}
+          {/* Southern Luzon Region */}
+          <Route
+            path="/Chapters/Bicol"
+            element={<BicolChap props={BicolData}/>}
+          />
+          <Route
+            path="/Chapters/Rizal"
+            element={<RizalChap props={RizalData}/>}
+          />
+          <Route
+            path="/Chapters/Southern-Luzon"
+            element={<SouthernLuzonChap props={SouthernLuzonData}/>}
+          />
         </Routes>
+        {/* Visayas Region */}
         <Footer />
       </>
   );

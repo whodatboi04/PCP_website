@@ -1,8 +1,8 @@
-.pasjman-containter{
+.southernL-containter{
     background-color: #FDFDF7;
 }
 
-.pasjman-containter h1{
+.southernL-containter h1{
     text-align: center;
     font-size: 30px;
     font-weight: 550;
@@ -10,26 +10,26 @@
     color: #5B1E1E;
 }
 
-.pasjman-containter h3{
+.southernL-containter h3{
     font-size: 15px;
     text-align: center;
     color: #2f2f2f;
 }
 
-.pasjman-content {
+.southernL-content {
     padding: 1.5rem 10rem;
 }
 
-.pasjman-content p{
+.southernL-content p{
     font-size: 14px;
 }
 
-.pasjman-info span, .pasjman-bank span{
+.southernL-info span, .southernL-bank span{
     font-weight: 550;
     color: #5B1E1E;
 }
 
-.pasjman-bank h4{
+.southernL-bank h4{
     font-size: 18px;
     text-decoration: underline;
     font-weight: 550;
@@ -37,38 +37,38 @@
     margin-bottom: 1rem;
 }
 
-.pasjman-main-table h4{
+.southernL-main-table h4{
     text-align: center;
     font-size: 22px;
     font-weight: 550;
     color: #5B1E1E;
 }
 
-.pasjman-officers{
+.southernL-officers{
     display: flex;
     justify-content: center;
     margin-bottom: 4rem;
 }
 
-.pasjman-officer-table{
+.southernL-officer-table{
     max-width: 65rem;
 }
 
-.pasjman-officer-table th {
+.southernL-officer-table th {
     text-align: right; 
     padding-right: 20rem; 
 }
 
-.pasjman-officer-table tr{
+.southernL-officer-table tr{
     border-bottom: 1px solid black;
 }
 
-.pasjman-officer-table td{
+.southernL-officer-table td{
     padding: 10px;
 }
 
 
-.pasjman-officer-table tbody{
+.southernL-chapters-board{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
