@@ -42,7 +42,7 @@ function NewsEvents({ NewsSlides }) {
     <div className='container-content'>
       <h1>Latest News & Events</h1>
       <Carousel
-        className={sizeCarousel ? 'mobile-news-events-slide' : 'carousel-slides'}
+        className={sizeCarousel ? 'mobile-news-events-slide' : 'newsEvents-carousel-slides'}
         activeIndex={index}
         onSelect={handleSelect}
         prevIcon={customPrevIcon}

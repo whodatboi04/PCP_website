@@ -1,11 +1,14 @@
 .pcp-news-container{
     position: relative;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
 }
 
 .pcp-news-container h1{
     margin-top: 3.5rem;
     text-align: center;
-    font-size: 38px;
+    font-size: 35px;
     color: #383838;
     font-family: 'Poppins', 'sans-serif';
     font-weight: 800;
@@ -17,6 +20,13 @@
     color: #4B4B4B;
 }
 
+.pcp-news-wrapper{
+    border: 1px solid black;
+    height: 400px;
+    width: 82.5rem;
+}
+
+
 .carousel-slides-news{
     margin-top: 4rem;
     width: 100%;
@@ -26,8 +36,9 @@
 .card-pcp-news{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     max-width: 60rem;
-    margin: 0 auto;
+    margin: 2rem auto;
 }
 
 .card-items-news{
@@ -35,7 +46,6 @@
     background-color: #EBEBEB;
     padding: 30px;
     position: relative;
-    margin-top: 4rem;
     width: 300px
 }
 
@@ -68,12 +78,12 @@
     color: #524949;
 }
 
-.carousel-btn{
-    margin-bottom: 6rem;
+.pcp-news-carousel-btn{
+    margin-bottom: 1rem;
 }
 
 .next{
-    margin-bottom: 5.5rem;
+    
 }
 
 

@@ -1,21 +1,29 @@
-.PCP-book-container{
+.pcp-book-container{
     display:flex;
     justify-content: center;
     background-color: #572525;
-    padding: 4rem 7rem;
-    gap: 10rem
+    height: 37rem;
+    gap: 10rem;
+    border: 1px solid #fff;
+}
+
+.pcp-book-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 12rem;
+    border: 1px solid #fff;
+    width: 82.5rem;
 }
 
 .book img{
-    width: 45rem;
+    width: 40rem;
 }
 
 .book-content{
-    margin: 0 auto;
     text-align: center;
-    margin-top: 12rem;
     font-family: 'Inter', sans-serif;
     color: #fff;
+    border: 1px solid #fff;
 }
 
 .book-content span{

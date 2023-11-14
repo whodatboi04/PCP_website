@@ -8,13 +8,13 @@ function VaxCert() {
     <>
       <div className='vaxcert-container'>
           <div className='vaxcert-wrapper'>
-              <div className='card-item vax-card'>
+              <div className='vaxcert-card-item vax-card'>
                   <img 
                     src={Covid19Image} 
                     alt='Covid 19 Vaccines'
                   />
                   <h2>
-                    COVID-19 VACCINES: GUIDELINES,<br/>
+                    COVID-19 VACCINES: GUIDELINES,
                       ALGORITHMS & POSITION STATEMENTS
                   </h2>
                   <a href='#'>
@@ -23,7 +23,7 @@ function VaxCert() {
                     </button>
                   </a>
               </div>
-              <div className='card-item cert-card'>
+              <div className='vaxcert-card-item cert-card'>
                 <img src={CertClaim} alt='Certificate Claim' />
                 <h2>Philippine College of Physicians
                     Certificate Claim 

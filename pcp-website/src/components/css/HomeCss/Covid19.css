@@ -5,7 +5,11 @@
 .Covid-container{
     position: relative;
     max-width: 75rem;
-    margin: 0 auto;
+    margin: 4rem auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .Covid-container h1{
@@ -19,6 +23,8 @@
 .Covid-wrapper{
     display: flex;
     justify-content: space-around;
+    border: 1px solid black;
+    width: 82.5rem;
 }
 
 .icon{

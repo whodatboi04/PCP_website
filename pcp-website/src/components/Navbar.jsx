@@ -5,7 +5,6 @@ import { FaLinkedinIn } from 'react-icons/fa';
 import { FaUserAlt } from 'react-icons/fa';
 import {FaBars} from 'react-icons/fa';
 import logoImage from './img/HomeImage/Logo-header.png';
-
 import {FaTimes} from 'react-icons/fa';
 import {FaAngleDown} from 'react-icons/fa';
 import "./css/Navbar.css";
