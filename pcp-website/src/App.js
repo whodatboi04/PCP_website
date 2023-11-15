@@ -2,7 +2,7 @@ import React from "react";
 import Home from "./pages/Home";
 import AboutPcp from "./pages/AboutPcp";
 import Navbar from "./components/Navbar";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route} from "react-router-dom";
 import Footer from "./components/Footer";
 import Membership from "./pages/Membership";
 import Chapters from "./pages/Chapters"
@@ -31,6 +31,7 @@ import SouthernLuzonData from "./data/ChaptersData/SouthernLuzonData.json"
 
 
 function App() {
+
   return (
     
       <>
@@ -38,7 +39,7 @@ function App() {
         <Routes>
           <Route 
             path="/" 
-            element={<Home />} 
+            index element={<Home />} 
           />
           <Route 
             path="/AboutPcp" 

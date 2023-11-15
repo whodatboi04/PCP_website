@@ -20,6 +20,8 @@ import DOHWebinarsData from '../data/HomeData/DOHWebinarsData.json'
 import CmtteeUpdt from '../components/HomeComponents/CmtteeUpdt'
 import AboutUs from "../components/HomeComponents/AboutUs"
 import ConactUs from "../components/HomeComponents/Contact"
+import Guidelines from '../components/HomeComponents/Guidelines'
+import BoardIRR from '../components/HomeComponents/BoardIRR'
 
 
 export default function Home(){
@@ -56,7 +58,12 @@ export default function Home(){
           {/* PCP Brochure & PCP-CPD Board Resolution
             & 2021 Amended By-Laws & PCP Research Guidelines */}
             <PcpBrochure  PcpBrochureContents={PcpBrochureData} />
-            
+
+            {/* Amended By-Laws / Research Guidelines */}
+            <Guidelines />
+
+            {/* Board Resolution & IRR */}
+            <BoardIRR/>
 
           {/* PCP Online Payment  */}
             <PcpPay />

@@ -1,0 +1,116 @@
+.guide-container{
+    margin-top: 4rem;
+}
+
+.guide-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.guide-content{
+    display: flex;
+    max-width: 90rem;
+    gap: 6rem;
+}
+
+.guide-fade {
+    border: 1px solid black;
+    position: relative;
+    display: inline-block;
+    width: 38.6rem;
+    height: 29rem;
+
+}
+
+.guide-fade-wrapper{
+    border: 1px solid red;
+    position: relative;
+    height: 25.8rem;
+}
+
+.guide-fade img {
+    width: 38.5rem;
+    border-radius: 50px;
+    display: block;
+    max-height: 32.1rem;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.guide-fade .guide-overlay {
+    display:none;
+     /* apply the same border-radius as the image */
+}
+
+.guide-overlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.guide-fade .guide-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0; 
+}
+
+.guide-fade:hover .guide-overlay {
+    opacity: 1; 
+}
+
+.guide-circle-icon{
+    width: 5rem;
+    height: 5rem;
+    background-color: #F8F8F1;
+    border-radius: 50%;
+    position: relative;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1F1F29;
+}
+
+.guide-icon{
+    font-size: 27px;
+}
+
+.guide-context{
+    width: 30rem;
+    height: 8rem;
+    background-color: #F5F5FA;
+    padding: 1rem;
+    position: relative;
+    border-radius: 28px;
+    margin: -5rem auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.guide-context h3{
+    font-size: 23px;
+    font-weight: 550;
+    color: #292727;
+    text-align: center;
+}
+
+.guide-context a{
+    text-decoration: none;
+    background-color: #6E3232;
+    color: #F5F5FA;
+    padding: 10px 30px;
+    border-radius: 28px;
+    font-size: 16px;
+}
+
+
