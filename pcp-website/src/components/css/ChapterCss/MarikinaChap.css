@@ -1,5 +1,8 @@
 .marikina-containter{
     background-color: #FDFDF7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .marikina-containter h1{
@@ -12,6 +15,8 @@
 
 .marikina-content {
     padding: 1.5rem 10rem;
+    min-width: 82.2rem;
+    max-width: 82.2rem;
 }
 
 .marikina-content p{
@@ -62,7 +67,7 @@
 }
 
 
-.marikina-officer-table tbody{
+.marikina-board{
     display: flex;
     flex-direction: column;
     align-items: flex-start;

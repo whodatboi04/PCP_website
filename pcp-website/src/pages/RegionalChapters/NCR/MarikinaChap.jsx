@@ -40,15 +40,11 @@ export default function MarikinaChap({props}) {
                 </tr>
                 <tr>
                   <th>Board of Trustees : </th>
-                  <tbody>
+                  <div className='marikina-board'>
                     <td>{officers.boardTrustees}</td>
                     <td>{officers.boardTrustees1}</td>
                     <td>{officers.boardTrustees2}</td>
-                  </tbody>
-                </tr>
-                <tr>
-                  <th>Secretary: </th>
-                  <td>{officers.secretary}</td>
+                  </div>
                 </tr>
                 <tr>
                   <th>Immediate Past President :</th>

@@ -18,8 +18,8 @@ function PcpDOHWebinars({DOHWebinars}) {
 
   return (
       <div className='pcp-doh-container'>
+        <div className='pcp-doh-wrapper'>
           <h1>PCP-DOH WEBINARS SERIES</h1> 
-          
           <Carousel 
             className='pcp-doh-carousel-slides'
             activeIndex={index}
@@ -62,6 +62,8 @@ function PcpDOHWebinars({DOHWebinars}) {
               </Carousel.Item>
             ))}
           </Carousel>
+        </div>
+          
           
       </div>
   )

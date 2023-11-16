@@ -1,13 +1,12 @@
-
-
 .SouthLuzon-content{
     display: flex;
     align-items: center;
-    gap: 10rem;
+    gap: 15rem;
+    margin-top: 2.5rem;
 }
 
 .SouthLuzon-content h2{
-    font-size: 22px;
+    font-size: 30px;
 }
 
 .SouthLuzon-btn{

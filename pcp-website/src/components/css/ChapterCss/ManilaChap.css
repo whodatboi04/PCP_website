@@ -1,5 +1,8 @@
 .manila-containter{
     background-color: #FDFDF7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .manila-containter h1{
@@ -12,6 +15,8 @@
 
 .manila-content {
     padding: 1.5rem 10rem;
+    min-width: 82.2rem;
+    max-width: 82.2rem;
 }
 
 .manila-content p{
@@ -62,7 +67,7 @@
 }
 
 
-.manila-officer-table tbody{
+.manila-board{
     display: flex;
     flex-direction: column;
     align-items: flex-start;

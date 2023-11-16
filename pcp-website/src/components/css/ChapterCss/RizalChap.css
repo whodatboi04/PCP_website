@@ -1,5 +1,8 @@
 .rizal-containter{
     background-color: #FDFDF7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .rizal-containter h1{
@@ -18,6 +21,8 @@
 
 .rizal-content {
     padding: 1.5rem 10rem;
+    min-width: 82.2rem;
+    max-width: 82.2rem;
 }
 
 .rizal-content p{

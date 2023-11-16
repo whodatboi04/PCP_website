@@ -41,14 +41,10 @@ export default function CamanavaChap({props}) {
                 </tr>
                 <tr>
                   <th>Board of Trustees : </th>
-                  <tbody>
+                  <div className='camanava-board'>
                     <td>{officers.boardTrustees}</td>
                     <td>{officers.boardTrustees1}</td>
-                  </tbody>
-                </tr>
-                <tr>
-                  <th>Secretary: </th>
-                  <td>{officers.secretary}</td>
+                  </div>
                 </tr>
                 <tr>
                   <th>Immediate Past President :</th>

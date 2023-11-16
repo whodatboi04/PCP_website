@@ -28,6 +28,21 @@ import SouthernLuzonChap from "./pages/RegionalChapters/SouthLuzon/SouthernLuzon
 import BicolData from "./data/ChaptersData/BicolData.json"
 import RizalData from "./data/ChaptersData/RizalData.json"
 import SouthernLuzonData from "./data/ChaptersData/SouthernLuzonData.json"
+import BoholChap from "./pages/RegionalChapters/VisayasRegion/BoholChap";
+import CapizAklanChap from './pages/RegionalChapters/VisayasRegion/CapizAklanChap';
+import CentralVisayas from './pages/RegionalChapters/VisayasRegion/CentralVisayas';
+import EastVisayasChap from './pages/RegionalChapters/VisayasRegion/EastVisayasChap';
+import NegrosOcChap from './pages/RegionalChapters/VisayasRegion/NegrosOcChap';
+import WestPanayChap from './pages/RegionalChapters/VisayasRegion/WestPanayChap';
+import NegrosOrChap from './pages/RegionalChapters/VisayasRegion/NegrosOrChap'
+import BoholData from './data/ChaptersData/BoholData.json'
+import CapizAklanData from './data/ChaptersData/CapizAklanData.json'
+import CentralVisayaData from './data/ChaptersData/CentralVisayasData.json'
+import EastVisayasData from './data/ChaptersData/EastVisayas.json'
+import NegrosOcData from './data/ChaptersData/NegrosOccidentalData.json'
+import WestVisayasPanayData from './data/ChaptersData/WestVisayasPanayData.json'
+import NegrosOrData from './data/ChaptersData/NegrosOrientalData.json'
+
 
 
 function App() {
@@ -101,8 +116,36 @@ function App() {
             path="/Chapters/Southern-Luzon"
             element={<SouthernLuzonChap props={SouthernLuzonData}/>}
           />
+          {/* Visayas Region */}
+          <Route 
+            path="/Chapters/Bohol"
+            element={<BoholChap props={BoholData}/>}
+          />
+          <Route 
+            path="/Chapters/Capiz-Aklan"
+            element={<CapizAklanChap props={CapizAklanData} />}
+          />
+          <Route 
+            path="/Chapters/Central-Visayas"
+            element={<CentralVisayas props={CentralVisayaData}/>}
+          />
+          <Route
+            path="/Chapters/Eastern-Visayas"
+            element={<EastVisayasChap props={EastVisayasData}/>}
+          />
+          <Route
+            path="/Chapters/Negros-occidental"
+            element={<NegrosOcChap props={NegrosOcData}/>}
+          />
+          <Route 
+            path="/Chapters/Western-visayas-panay"
+            element={<WestPanayChap props={WestVisayasPanayData}/>}
+          />
+          <Route 
+            path="/Chapters/Negros-Oriental"
+            element={<NegrosOrChap props={NegrosOrData}/>}
+          />
         </Routes>
-        {/* Visayas Region */}
         <Footer />
       </>
   );

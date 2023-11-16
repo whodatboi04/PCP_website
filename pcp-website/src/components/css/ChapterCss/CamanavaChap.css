@@ -1,5 +1,8 @@
 .camanava-containter{
     background-color: #FDFDF7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .camanava-containter h1{
@@ -18,6 +21,8 @@
 
 .camanava-content {
     padding: 1.5rem 10rem;
+    min-width: 82.2rem;
+    max-width: 82.2rem;
 }
 
 .camanava-content p{
@@ -68,7 +73,7 @@
 }
 
 
-.camanava-officer-table tbody{
+.camanava-board{
     display: flex;
     flex-direction: column;
     align-items: flex-start;

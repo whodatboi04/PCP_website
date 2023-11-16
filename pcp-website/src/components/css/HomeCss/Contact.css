@@ -1,7 +1,26 @@
 .contact-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 8rem;
+}
+
+.contact-wrapper{
+    border:  1px solid black;
+    max-width: 82.2rem;
+    
+}
+
+.contact-wrapper h1{
+    font-size: 35px;
+    font-weight: 550;
+    color: #383838;
+    text-align: center;
+}
+
+.contact-cotent{
+    display: flex;
+    margin-top: 2rem;
+    gap: 4rem;
 }
 
 .contact-form{
@@ -16,7 +35,7 @@
     justify-content: center;
 }
 
-.contact-form h1{
+.contact-form h2{
     color: #fff;
     text-align: center;
     font-size: 35px;

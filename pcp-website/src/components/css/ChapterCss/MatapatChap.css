@@ -1,5 +1,8 @@
 .matapat-containter{
     background-color: #FDFDF7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .matapat-containter h1{
@@ -18,6 +21,8 @@
 
 .matapat-content {
     padding: 1.5rem 10rem;
+    min-width: 82.2rem;
+    max-width: 82.2rem;
 }
 
 .matapat-content p{
@@ -68,7 +73,7 @@
 }
 
 
-.matapat-officer-table tbody{
+.matapat-board{
     display: flex;
     flex-direction: column;
     align-items: flex-start;

@@ -3,8 +3,7 @@ import {AiTwotoneFolderOpen} from "react-icons/ai"
 import "../css/HomeCss/HmoMediaForum.css"
 import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import ForumCovid19Banner from "./ForumCovid19"
-import { ForumCovidData } from '../../data/HomeData/ForumCovidData';
+
 
 function HmoMediaForum({MediaComm}) {
     const [index, setIndex] = useState(0);
@@ -83,9 +82,6 @@ function HmoMediaForum({MediaComm}) {
                         ))}
                         </Carousel>
                 </div>
-            </div>
-            <div>
-                <ForumCovid19Banner ForumCovid={ForumCovidData} />
             </div>
         </div>
     )

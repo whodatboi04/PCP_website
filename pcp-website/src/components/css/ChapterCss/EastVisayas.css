@@ -1,0 +1,83 @@
+.evisayas-containter{
+    background-color: #FDFDF7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.evisayas-containter h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 550;
+    padding-top: 2.5rem;
+    color: #5B1E1E;
+}
+
+.evisayas-containter h3{
+    font-size: 15px;
+    text-align: center;
+    color: #2f2f2f;
+    max-width: 60.5rem;
+}
+
+.evisayas-content {
+    padding: 1.5rem 10rem;
+    min-width: 82.2rem;
+    max-width: 82.2rem;
+}
+
+.evisayas-content p{
+    font-size: 14px;
+}
+
+.evisayas-info span, .bohol-bank span{
+    font-weight: 550;
+    color: #5B1E1E;
+}
+
+.evisayas-bank h4{
+    font-size: 18px;
+    text-decoration: underline;
+    font-weight: 550;
+    color: #5B1E1E;
+    margin-bottom: 1rem;
+}
+
+.evisayas-main-table h4{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 550;
+    color: #5B1E1E;
+}
+
+.evisayas-officers{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.evisayas-officer-table{
+    max-width: 65rem;
+}
+
+.evisayas-officer-table th {
+    text-align: right; 
+    padding-right: 20rem; 
+}
+
+.evisayas-officer-table tr{
+    border-bottom: 1px solid black;
+}
+
+.evisayas-officer-table td{
+    padding: 10px;
+}
+
+
+.evisayas-board{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+

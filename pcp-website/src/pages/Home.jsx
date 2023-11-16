@@ -18,7 +18,6 @@ import { MediaCommData } from '../data/HomeData/MediaCommData'
 import PcpDOHWebinars from '../components/HomeComponents/PcpDOHWebinars'
 import DOHWebinarsData from '../data/HomeData/DOHWebinarsData.json'
 import CmtteeUpdt from '../components/HomeComponents/CmtteeUpdt'
-import AboutUs from "../components/HomeComponents/AboutUs"
 import ConactUs from "../components/HomeComponents/Contact"
 import Guidelines from '../components/HomeComponents/Guidelines'
 import BoardIRR from '../components/HomeComponents/BoardIRR'
@@ -78,8 +77,6 @@ export default function Home(){
           {/* Committee Updates */}
           <CmtteeUpdt />
 
-          {/* About Us */}
-          <AboutUs />
           
           {/* Contact Us */}
           <ConactUs />

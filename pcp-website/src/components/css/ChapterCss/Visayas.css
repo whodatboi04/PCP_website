@@ -1,0 +1,34 @@
+
+
+.visayas-content{
+    display: flex;
+    align-items: center;
+    gap: 15rem;
+    flex-direction: row-reverse;
+    margin-top: 4rem;
+}
+
+.visayas-content h2{
+    font-size: 30px;
+}
+
+.visayas-btn{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: #F8F8F1;
+    padding: 3rem;
+    border-radius: 18px;
+    width: 34rem;
+}
+
+.visayas-btn-items{
+    margin-bottom: 1.5rem;
+    text-decoration: none;
+    color: #420505;
+}
+
+.visayas-btn-items:hover{
+    transition: transform .5s ease;
+    transform: scale(1.02);
+}

@@ -51,10 +51,6 @@ export default function RizalChap({props}) {
                     </div>
                 </tr>
                 <tr>
-                    <th>Secretary: </th>
-                    <td>{officers.secretary}</td>
-                </tr>
-                <tr>
                     <th>Immediate Past President :</th>
                     <td>{officers.pastPresident}</td>
                 </tr>

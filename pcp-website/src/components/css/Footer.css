@@ -2,12 +2,18 @@ footer{
     display: flex;
     justify-content: space-evenly;
     background-color: #F8F8F8;
-    
+}
+
+.footer-wrapper{
+    display: flex;
+    max-width: 82.2rem;
+    gap: 10rem;
+    align-items: center;
 }
 
 footer img{
-    width: 16rem;
-    height: 16rem;
+    width: 26rem;
+    height: 10rem;
 }
 
 .footer-info{

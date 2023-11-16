@@ -1,4 +1,5 @@
 import React from 'react'
+import '../../../components/css/ChapterCss/QcChap.css'
 
 export default function QuezonCityChap({props}) {
   return (
@@ -39,15 +40,11 @@ export default function QuezonCityChap({props}) {
                 </tr>
                 <tr>
                   <th>Board of Trustees : </th>
-                  <tbody>
+                  <div className='qc-board'>
                     <td>{officers.boardTrustees}</td>
                     <td>{officers.boardTrustees1}</td>
                     <td>{officers.boardTrustees2}</td>
-                  </tbody>
-                </tr>
-                <tr>
-                  <th>Secretary: </th>
-                  <td>{officers.secretary}</td>
+                  </div>
                 </tr>
                 <tr>
                   <th>Immediate Past President :</th>

@@ -1,5 +1,8 @@
 .southernL-containter{
     background-color: #FDFDF7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .southernL-containter h1{
@@ -11,13 +14,16 @@
 }
 
 .southernL-containter h3{
-    font-size: 15px;
+    font-size: 14px;
+    max-width: 82.2rem;
     text-align: center;
     color: #2f2f2f;
 }
 
 .southernL-content {
     padding: 1.5rem 10rem;
+    min-width: 82.2rem;
+    max-width: 82.2rem;
 }
 
 .southernL-content p{
