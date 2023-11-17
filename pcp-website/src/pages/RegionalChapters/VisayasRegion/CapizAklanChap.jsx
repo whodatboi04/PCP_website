@@ -2,15 +2,15 @@ import React from 'react'
 
 export default function CapizAklanChap({props}) {
   return (
-    <div className='bohol-containter'>
+    <div className='chapters-containter'>
       <h1>CAPIZ-AKLAN CHAPTER (2009)</h1>
       <h3>(Aklan – Kalibo / Banga;  Capiz – Roxas City / Puntaverde / Panay / Tapaz )</h3>
-      <div className='bohol-content'>
-        <div className='bohol-info'>
+      <div className='chapters-content'>
+        <div className='chapters-info'>
           <p><span>PCP Office Capiz:</span> C/O   THE HEALTH CENTRUM HOSPITAL, TEODORICA AVENUE, BANICA, ROXAS CITY  5800</p>
           <p><span>Secretariat :</span> MRS. ROBEL RUEDA –0975-9970411</p>
         </div>
-        <div className='bohol-bank'>
+        <div className='chapters-bank'>
           <h4>Bank Details:</h4>
           <p><span>Account name : </span> PHILIPPINE COLLEGE OF PHYSICIANS   </p>
           <p><span>Bank/Branch : </span> BPI ROXAS PLARIDEL, ROXAS CITY</p>
@@ -18,22 +18,22 @@ export default function CapizAklanChap({props}) {
           <p><span>Savings Account : </span> 001103379055PHIL.</p>
         </div>
         <hr/>
-        <div className='bohol-info'>
+        <div className='chapters-info'>
           <p><span>Office CAPIZ:</span> C/O PANAY HEALTH CARE MPC HOSPITAL, BGY. ESTANCIA, KALIBO, AKLAN</p>
           <p><span>Secretariat :</span> MS. ROBEL RUEDA –0975-9970411</p>
           <p><span>Email:</span> ruedasrobel@gmail.com</p>
         </div>
-        <div className='bohol-bank'>
+        <div className='chapters-bank'>
           <h4>Bank Details:</h4>
           <p><span>Account name : </span> PHILIPPINE  COLLEGE  OF PHYSICIANS  CAPIZ-AKLAN  CHAPTER  INC.</p>
           <p><span>Bank/Branch : </span> BDO KALIBO</p>
           <p><span>Checking Account : </span> 005580178612</p>
         </div>
         {props.map((officers) => (
-          <div className='bohol-officers' key={officers.id}>
-            <div className='bohol-main-table'>
+          <div className='chapters-officers' key={officers.id}>
+            <div className='chapters-main-table'>
               <h4>OFFICERS</h4>
-              <table className='bohol-officer-table'>
+              <table className='chapters-officer-table'>
                 <tr>
                   <th>President : </th>
                   <td>{officers.president}</td>
@@ -64,7 +64,7 @@ export default function CapizAklanChap({props}) {
                 </tr>
                 <tr>
                   <th>Board of Trustees : </th>
-                  <div className='bohol-board'>
+                  <div className='chapters-board'>
                     <td>{officers.boardTrustees}</td>
                     <td>{officers.boardTrustees1}</td>
                     <td>{officers.boardTrustees2}</td>

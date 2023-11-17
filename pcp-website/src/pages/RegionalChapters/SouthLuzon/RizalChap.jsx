@@ -1,27 +1,26 @@
 import React from 'react'
-import "../../../components/css/ChapterCss/RizalChap.css"
 
 export default function RizalChap({props}) {
   return (
-    <div className='rizal-containter'>
+    <div className='chapters-containter'>
         <h1>RIZAL CHAPTER (2010)</h1>
         <h3>( Cainta / Taytay / Antipolo )</h3>
-        <div className='rizal-content'>
-        <div className='rizal-info'>
+        <div className='chapters-content'>
+        <div className='chapters-info'>
             <p><span>Office :</span> Clinica Antipolo Hospital and Wellness Center Lot4, Sen. Lorenzo, Sumulong Memorial Circle, Brgy Dela Paz, Antipolo City, Rizal</p>
             <p><span>Secretariat :</span> Dr. Ma. Clarinda Florianne D. Lopez</p>
         </div>
-        <div className='rizal-bank'>
+        <div className='chapters-bank'>
             <h4>Bank Details:</h4>
             <p><span>Account name : </span> Philippine College of Physicians-Rizal Chapter</p>
             <p><span>Bank/Branch : </span> 	MVSM Pililia Branch, Rizal</p>
             <p><span>Account No. : </span> 51037024</p>
         </div>
         {props.map((officers) => (
-        <div className='rizal-officers' key={officers.id}>
-            <div className='rizal-main-table'>
+        <div className='chapters-officers' key={officers.id}>
+            <div className='chapters-main-table'>
                 <h4>OFFICERS</h4>
-                <table className='rizal-officer-table'>
+                <table className='chapters-officer-table'>
                 <tr>
                     <th>President : </th>
                     <td>{officers.president}</td>
@@ -44,7 +43,7 @@ export default function RizalChap({props}) {
                 </tr>
                 <tr>
                     <th>Board of Trustees : </th>
-                    <div className='rizal-chapters-board'>
+                    <div className='chapters-chapters-board'>
                         <td>{officers.boardTrustees}</td>
                         <td>{officers.boardTrustees1}</td>
                         <td>{officers.boardTrustees2}</td>

@@ -1,28 +1,27 @@
 import React from 'react'
-import '../../../components/css/ChapterCss/PasayChap.css'
 
 
 export default function PasayChap({props}) {
   return (
-    <div className='pasay-containter'>
+    <div className='chapters-containter'>
       <h1>PASAY CHAPTERR</h1>
-      <div className='pasay-content'>
-        <div className='pasay-info'>
+      <div className='chapters-content'>
+        <div className='chapters-info'>
           <p><span>Office :</span> San Juan De Dios Hospital, Roxas Blvd., Pasay City</p>
           <p><span>Secretariat :</span> Ms. Melanie – 8319731 /  0999-8046397 / +639452045899</p>
           <p><span>Email :</span> pcppasay2010@yahoo.com</p>
         </div>
-        <div className='pasay-bank'>
+        <div className='chapters-bank'>
           <h4>Bank Details:</h4>
           <p><span>Account name : </span> Philippine College of Physicians - Pasay City Chapter, Inc.</p>
           <p><span>Bank/Branch : </span> ChinaBank Pasay Roxas Blvd</p>
           <p><span>Account No. : </span> 202-079651-2</p>
         </div>
         {props.map((officers) => (
-          <div className='pasay-officers' key={officers.id}>
-            <div className='pasay-main-table'>
+          <div className='chapters-officers' key={officers.id}>
+            <div className='chapters-main-table'>
               <h4>OFFICERS</h4>
-              <table className='pasay-officer-table'>
+              <table className='chapters-officer-table'>
                 <tr>
                   <th>President : </th>
                   <td>{officers.president}</td>
@@ -41,7 +40,7 @@ export default function PasayChap({props}) {
                 </tr>
                 <tr>
                   <th>Board of Trustees : </th>
-                  <div className='pasay-board'>
+                  <div className='chapters-board'>
                     <td>{officers.boardTrustees}</td>
                     <td>{officers.boardTrustees1}</td>
                     <td>{officers.boardTrustees2}</td>

@@ -8,37 +8,37 @@ export default function Mindanao() {
             <h2>MINDANAO <span>REGION</span></h2>
             <div className='mindanao-btn'>
                 <Link
-                    to="/Chapters/Bohol"
+                    to="/Chapters/North-Mindanao"
                     className='mindanao-btn-items'
                 >
                     NORTHERN  MINDANAO CHAPTER
                 </Link>
                 <Link
-                    to="/Chapters/Capiz-Aklan"
+                    to="/Chapters/North-West-Mindanao"
                     className='mindanao-btn-items'
                 >
                     NORTHWESTERN MINDANAO CHAPTER 
                 </Link>
                 <Link
-                    to="/Chapters/Central-Visayas"
+                    to="/Chapters/Socsksargen"
                     className='mindanao-btn-items'
                 >
                     SOCSKSARGEN CHAPTER
                 </Link>
                 <Link
-                    to="/Chapters/Eastern-Visayas"
+                    to="/Chapters/Southern-Mindanao"
                     className='mindanao-btn-items'
                 >
                     SOUTHERN MINDANAO CHAPTER
                 </Link>
                 <Link
-                    to="/Chapters/Negros-occidental"
+                    to="/Chapters/Western-Mindanao"
                     className='mindanao-btn-items'
                 >
                     WESTERN MINDANAO CHAPTER
                 </Link>
                 <Link
-                    to="/Chapters/Western-visayas-panay"
+                    to="/Chapters/Caraga"
                     className='mindanao-btn-items'
                 >
                     CARAGA CHAPTER

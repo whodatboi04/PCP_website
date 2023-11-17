@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Home from "./pages/Home";
 import AboutPcp from "./pages/AboutPcp";
 import Navbar from "./components/Navbar";
-import { Routes, Route} from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Footer from "./components/Footer";
 import Membership from "./pages/Membership";
 import Chapters from "./pages/Chapters"
@@ -42,110 +42,166 @@ import EastVisayasData from './data/ChaptersData/EastVisayas.json'
 import NegrosOcData from './data/ChaptersData/NegrosOccidentalData.json'
 import WestVisayasPanayData from './data/ChaptersData/WestVisayasPanayData.json'
 import NegrosOrData from './data/ChaptersData/NegrosOrientalData.json'
+import NorthMinChap from './pages/RegionalChapters/MindanaoRegion/NorthMinChap'
+import NWestMinChap from './pages/RegionalChapters/MindanaoRegion/NWestMinChap'
+import SoccsChap from './pages/RegionalChapters/MindanaoRegion/SocsChap'
+import SouthMin from './pages/RegionalChapters/MindanaoRegion/SouthMin'
+import WestMinChap from './pages/RegionalChapters/MindanaoRegion/WestMinChap'
+import Caraga from './pages/RegionalChapters/MindanaoRegion/Caraga'
+import NorthMindanaoData from './data/ChaptersData/NorthMindanaoData.json'
+import NWestMindanaoData from './data/ChaptersData/NWestMindanaoData.json'
+import SocsksargenData from './data/ChaptersData/SocksargenData.json'
+import SouthMindanaoData from './data/ChaptersData/SouthMindanaoData.json'
+import WestMindanaoData from './data/ChaptersData/WestMindanaoData.json'
+import CaragaData from './data/ChaptersData/CaragaData.json'
+
 
 
 
 function App() {
+  // const NavbarRouter = () => {
+  //   const { pathname } = useLocation();
+
+  //   useEffect(() => {
+  //     window.scrollTo(0, 0);
+  //   }, [pathname]);
+
+  //   return null;
+  // };
+
+  // window.scrollTo({
+  //   top: 0,
+  //   left: 0,
+  //   behavior: 'auto',
+  // });
 
   return (
     
       <>
+        {/* <NavbarRouter /> */}
+       <BrowserRouter>
         <Navbar />
-        <Routes>
-          <Route 
-            path="/" 
-            index element={<Home />} 
-          />
-          <Route 
-            path="/AboutPcp" 
-            element={<AboutPcp />} 
-          />
-          <Route 
-            path="/Membership" 
-            element={<Membership/>} 
-          />
-          <Route 
-            path="/Chapters" 
-            element={<Chapters/>} 
-          />
-          {/* Regional Chapters */}
+          <Routes>
+            <Route 
+              path="/" 
+              index element={<Home />} 
+            />
+            <Route 
+              path="/AboutPcp" 
+              element={<AboutPcp />} 
+            />
+            <Route 
+              path="/Membership" 
+              element={<Membership/>} 
+            />
+            <Route 
+              path="/Chapters" 
+              element={<Chapters/>} 
+            />
+            {/* Regional Chapters */}
+              <Route
+                path="/Chapters/Camanava"
+                element={<CamanvaChap props={CamanavaData}/>}
+              />
+              <Route
+                path="/Chapters/Marikina"
+                element={<MarikinaChap props={MarikinaData}/>}
+              />
+              <Route
+                path="/Chapters/Pasay"
+                element={<PasayChap props={PasayData}/>}
+              />
+              <Route
+                path="/Chapters/Pasjman"
+                element={<PasjmanChap props={PasajmanData}/>}
+              />
+              <Route
+                path="/Chapters/Quezon-City"
+                element={<QuezonCityChap props={QuezonCityData}/>}
+              />
+              <Route
+                path="/Chapters/Manila"
+                element={<ManilaChap props={ManilaData}/>}
+              />
+              <Route
+                path="/Chapters/Matapat"
+                element={<MatapatChap props={MatapatData}/>}
+              />
+              <Route
+                path="/Chapters/Pamunlas"
+                element={<PamunlasChap props={PamunlasData}/>}
+              />
+            {/* Regional Chapters End */}
+            {/* Provincial Chapters */}
+            {/* Southern Luzon Region */}
             <Route
-              path="/Chapters/Camanava"
-              element={<CamanvaChap props={CamanavaData}/>}
+              path="/Chapters/Bicol"
+              element={<BicolChap props={BicolData}/>}
             />
             <Route
-              path="/Chapters/Marikina"
-              element={<MarikinaChap props={MarikinaData}/>}
+              path="/Chapters/Rizal"
+              element={<RizalChap props={RizalData}/>}
             />
             <Route
-              path="/Chapters/Pasay"
-              element={<PasayChap props={PasayData}/>}
+              path="/Chapters/Southern-Luzon"
+              element={<SouthernLuzonChap props={SouthernLuzonData}/>}
+            />
+            {/* Visayas Region */}
+            <Route 
+              path="/Chapters/Bohol"
+              element={<BoholChap props={BoholData}/>}
+            />
+            <Route 
+              path="/Chapters/Capiz-Aklan"
+              element={<CapizAklanChap props={CapizAklanData} />}
+            />
+            <Route 
+              path="/Chapters/Central-Visayas"
+              element={<CentralVisayas props={CentralVisayaData}/>}
             />
             <Route
-              path="/Chapters/Pasjman"
-              element={<PasjmanChap props={PasajmanData}/>}
+              path="/Chapters/Eastern-Visayas"
+              element={<EastVisayasChap props={EastVisayasData}/>}
             />
             <Route
-              path="/Chapters/Quezon-City"
-              element={<QuezonCityChap props={QuezonCityData}/>}
+              path="/Chapters/Negros-occidental"
+              element={<NegrosOcChap props={NegrosOcData}/>}
+            />
+            <Route 
+              path="/Chapters/Western-visayas-panay"
+              element={<WestPanayChap props={WestVisayasPanayData}/>}
+            />
+            <Route 
+              path="/Chapters/Negros-Oriental"
+              element={<NegrosOrChap props={NegrosOrData}/>}
+            />
+            {/* Mindanao Region */}
+            <Route 
+              path="/Chapters/North-Mindanao"
+              element={<NorthMinChap props={NorthMindanaoData}/>}
             />
             <Route
-              path="/Chapters/Manila"
-              element={<ManilaChap props={ManilaData}/>}
+              path="/Chapters/North-West-Mindanao"
+              element={<NWestMinChap props={NWestMindanaoData}/>}
             />
-            <Route
-              path="/Chapters/Matapat"
-              element={<MatapatChap props={MatapatData}/>}
+            <Route 
+              path="/Chapters/Socsksargen"
+              element={<SoccsChap props={SocsksargenData}/>}
             />
-            <Route
-              path="/Chapters/Pamunlas"
-              element={<PamunlasChap props={PamunlasData}/>}
+            <Route  
+              path="/Chapters/Southern-Mindanao"
+              element={<SouthMin props={SouthMindanaoData}/>}
             />
-          {/* Regional Chapters End */}
-          {/* Provincial Chapters */}
-          {/* Southern Luzon Region */}
-          <Route
-            path="/Chapters/Bicol"
-            element={<BicolChap props={BicolData}/>}
-          />
-          <Route
-            path="/Chapters/Rizal"
-            element={<RizalChap props={RizalData}/>}
-          />
-          <Route
-            path="/Chapters/Southern-Luzon"
-            element={<SouthernLuzonChap props={SouthernLuzonData}/>}
-          />
-          {/* Visayas Region */}
-          <Route 
-            path="/Chapters/Bohol"
-            element={<BoholChap props={BoholData}/>}
-          />
-          <Route 
-            path="/Chapters/Capiz-Aklan"
-            element={<CapizAklanChap props={CapizAklanData} />}
-          />
-          <Route 
-            path="/Chapters/Central-Visayas"
-            element={<CentralVisayas props={CentralVisayaData}/>}
-          />
-          <Route
-            path="/Chapters/Eastern-Visayas"
-            element={<EastVisayasChap props={EastVisayasData}/>}
-          />
-          <Route
-            path="/Chapters/Negros-occidental"
-            element={<NegrosOcChap props={NegrosOcData}/>}
-          />
-          <Route 
-            path="/Chapters/Western-visayas-panay"
-            element={<WestPanayChap props={WestVisayasPanayData}/>}
-          />
-          <Route 
-            path="/Chapters/Negros-Oriental"
-            element={<NegrosOrChap props={NegrosOrData}/>}
-          />
-        </Routes>
+            <Route 
+              path="/Chapters/Western-Mindanao"
+              element={<WestMinChap props={WestMindanaoData}/>}  
+            />
+            <Route    
+              path="/Chapters/Caraga"
+              element={<Caraga props={CaragaData}/>}
+            />
+          </Routes>
+        </BrowserRouter>
         <Footer />
       </>
   );
