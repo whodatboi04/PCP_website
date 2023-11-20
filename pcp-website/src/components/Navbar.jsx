@@ -8,13 +8,14 @@ import logoImage from './img/HomeImage/Logo-header.png';
 import {FaTimes} from 'react-icons/fa';
 import {FaAngleDown} from 'react-icons/fa';
 import "./css/Navbar.css";
-import { Link } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 
 
 function Navbar() {
 
     const navRef = useRef();
     const [navScrolled, setNavbar] = useState(false);
+    const { pathname } = useLocation();
 
     const showNavbar = () =>{
         navRef.current.classList.toggle("responsive_nav");
@@ -35,71 +36,74 @@ function Navbar() {
         };
     }, []);
 
+    useEffect(() => {
+        window.scrollTo({top: 0, behavior: "instant"});
+    }, [pathname]);
     
   return (
         <header>
             {/* Navigation Bar */}
-            <nav ref={navRef} className={navScrolled ? 'main-nav active' : 'main-nav'}>
+            <nav ref={navRef} className={navScrolled ? 'main-nav act' : 'main-nav'}>
                  {/* PCP logo header */}
                 <img 
                     src={logoImage}   
                     alt='Philippine College of Physicians' 
                 />
-                    <ul className={navScrolled ? 'navbar active' : 'navbar'}>
-                            <Link 
+                    <ul className={navScrolled ? 'navbar act' : 'navbar'}>
+                            <NavLink 
                                 to="/" 
                                 className='nav-items'
                             >
                                 Home
-                            </Link>
-                            <Link 
+                            </NavLink>
+                            <NavLink 
                                 to="/AboutPcp" 
                                 className='nav-items'
                             >
                                 About PCP
-                            </Link>
-                            <Link 
+                            </NavLink>
+                            <NavLink 
                                 to="/Membership" 
                                 className='nav-items'
                             >
                                 Membership
                                 <FaAngleDown size={10}/>
-                            </Link>
-                            <Link 
+                            </NavLink>
+                            <NavLink 
                                 to="/Chapters" 
                                 className='nav-items'
                             >
                                 Chapters
                                 <FaAngleDown size={10}/>
-                            </Link>
-                            <Link 
+                            </NavLink>
+                            <NavLink 
                                 to="/Journals" 
                                 className='nav-items'
                             >
                                 Journals
                                 <FaAngleDown size={10}/>
-                            </Link>
-                            <Link 
+                            </NavLink>
+                            <NavLink 
                                 to="/Newsletter" 
                                 className='nav-items'
                             >
                                 Newsletter
                                 <FaAngleDown size={10}/>
-                            </Link>
-                            <Link 
+                            </NavLink>
+                            <NavLink 
                                 to="/HMO" 
                                 className='nav-items'
                             >
                                 HMO'S
                                 <FaAngleDown size={10}/>
-                            </Link>
-                            <Link 
+                            </NavLink>
+                            <NavLink 
                                 to="/Contact" 
                                 className='nav-items'
                             >
                                 Contact
                                 <FaAngleDown size={10}/>
-                            </Link>
+                            </NavLink>
                             <a 
                                 href='https://www.facebook.com/pcpofficialpage' 
                                 className='icons'>

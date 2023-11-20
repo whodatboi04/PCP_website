@@ -54,6 +54,7 @@ import SocsksargenData from './data/ChaptersData/SocksargenData.json'
 import SouthMindanaoData from './data/ChaptersData/SouthMindanaoData.json'
 import WestMindanaoData from './data/ChaptersData/WestMindanaoData.json'
 import CaragaData from './data/ChaptersData/CaragaData.json'
+import Journals from "./pages/Journals";
 
 
 
@@ -199,6 +200,11 @@ function App() {
             <Route    
               path="/Chapters/Caraga"
               element={<Caraga props={CaragaData}/>}
+            />
+            {/* End of Chapters */}
+            <Route  
+              path="/Journals"
+              element={<Journals/>}
             />
           </Routes>
         </BrowserRouter>

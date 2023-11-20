@@ -1,0 +1,138 @@
+
+
+.journal-banner-container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.journal-banner-wrapper{
+    
+    max-width: 82.2rem;
+}
+
+.current-wrapper{
+    
+}
+
+.current-wrapper h1{
+    color: #420505;
+    font-weight: 550;
+    font-size: 28px;
+}
+
+.current-wrapper h3{
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.journal-banner{
+    
+    margin: 4rem 0 4rem 0; 
+    height:  16rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+
+.banner-bg{
+    width: 82.2rem;
+    height: 13rem;
+    background-color: #744242;
+    display: flex;
+    justify-content: center;
+    border-radius: 28px;
+}
+
+.current-wrapper img{
+    width: 42rem;
+    border-radius: 38px;
+    position: absolute;
+    
+}
+
+
+.journal-content{
+    max-width: 82.2rem;
+    display: flex; 
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.journal-content-container{
+    display: flex;
+    justify-content: center;
+    background-color: #F7F7F7;
+    padding: 3rem 0;
+}
+
+.journal-content-wrapper{
+    max-width: 82.2rem;
+}
+
+.journal-content-wrapper h2{
+    font-size: 30px;
+    font-weight: 550;
+    text-align: center;
+    color: #252727;
+}
+
+.journal-content h3{
+    font-size: 20px;
+    font-weight: 550;
+    text-decoration: underline;
+    color: #292727;
+}
+
+.journal-content h4{
+    font-size: 17px;
+    font-weight: 550;
+    color: #292727;
+    max-width: 70rem;
+}
+
+.journal-content p{
+    font-size: 15px;
+    color: #292727;
+    font-style: italic;
+    max-width: 70rem;
+    
+}
+
+.journal-content a{
+    text-decoration: none;
+    color: #420505;
+    background-color: transparent;
+    padding: 2.5px 20px;
+    border-radius: 28px;
+    position: relative;
+    z-index: 1;
+}
+
+.journal-content a:hover{
+    color: #fff;
+    z-index: 999;
+    transition: width 0.3s ease-out;
+}
+
+.journal-content a::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0; 
+    height: 32px;
+    background-color: #744242;
+    transition: width 0.3s ease-out;
+    z-index: -1;  
+}
+
+
+.journal-content a:hover::before{
+    width: 100%;
+}
+
