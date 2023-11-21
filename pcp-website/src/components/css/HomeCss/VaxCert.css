@@ -3,12 +3,10 @@
     justify-content: center;
     margin-top: 4rem;
     margin-bottom: 40px;
-    border: 1px solid black;
 }
 
 .vaxcert-wrapper{
     display:flex;
-    border: 1px solid black;
     gap: 2.4rem;
     width: 82.5rem;
     position: relative;

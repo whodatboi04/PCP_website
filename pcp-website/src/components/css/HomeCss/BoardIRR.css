@@ -6,20 +6,17 @@
 
 .irr-wrapper{
     display:flex;
-    border: 1px solid red;
     max-width: 82.2rem;
     gap: 8.4rem;
 }
 
 .irr-card-item{
-    border: 1px solid red;
     height: 28rem;
 }
 
 .irr-content{
     position: relative;
     max-width: 26.7rem;
-    border: 1px solid black;
     height: 23.2rem;
 }
 
@@ -56,7 +53,6 @@
     background-color: #F8F8F1;
     border-radius: 50%;
     position: relative;
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;

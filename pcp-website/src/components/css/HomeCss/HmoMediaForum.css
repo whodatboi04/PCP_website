@@ -84,7 +84,6 @@
 .HMOMedia-wrapper{
     max-width: 82.2rem;
     padding: 20px;
-    border: 1px solid black;
     display: flex;
     gap: 15rem;
     align-items: center;

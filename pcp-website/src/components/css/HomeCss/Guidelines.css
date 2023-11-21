@@ -14,7 +14,6 @@
 }
 
 .guide-fade {
-    border: 1px solid black;
     position: relative;
     display: inline-block;
     width: 38.6rem;
@@ -23,7 +22,6 @@
 }
 
 .guide-fade-wrapper{
-    border: 1px solid red;
     position: relative;
     height: 25.8rem;
 }
@@ -72,7 +70,6 @@
     background-color: #F8F8F1;
     border-radius: 50%;
     position: relative;
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -4,14 +4,12 @@
     background-color: #572525;
     height: 37rem;
     gap: 10rem;
-    border: 1px solid #fff;
 }
 
 .pcp-book-wrapper{
     display: flex;
     align-items: center;
     gap: 12rem;
-    border: 1px solid #fff;
     width: 82.5rem;
 }
 
@@ -23,7 +21,6 @@
     text-align: center;
     font-family: 'Inter', sans-serif;
     color: #fff;
-    border: 1px solid #fff;
 }
 
 .book-content span{

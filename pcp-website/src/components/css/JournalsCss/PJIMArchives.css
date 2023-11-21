@@ -11,10 +11,41 @@
 .pjimArch-container{
     display: flex;
     justify-content: center;
+    margin-top: 4rem;
 }
 
 .pjimArch-wrapper{
     max-width: 70rem;
     min-width: 70rem;
-    border: 1px solid black;
 }
+
+.pjimArch-wrapper h1{
+    color: #420505;
+    font-weight: 550;
+    font-size: 28px;
+}
+
+.pjim-search{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 3.5rem;
+    gap: 10px;
+    position: relative;
+    
+}
+
+.pjim-search input{
+    padding: 4px;
+    width: 15rem;
+}
+
+.pjim-search-icon{
+    position: absolute;
+    right: 5px;
+}
+
+
+
+
+
