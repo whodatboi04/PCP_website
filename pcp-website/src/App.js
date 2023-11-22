@@ -55,6 +55,8 @@ import SouthMindanaoData from './data/ChaptersData/SouthMindanaoData.json'
 import WestMindanaoData from './data/ChaptersData/WestMindanaoData.json'
 import CaragaData from './data/ChaptersData/CaragaData.json'
 import Journals from "./pages/Journals";
+import Contactpage from "./pages/Contactpage";
+import HMO from "./pages/HMO";
 
 
 
@@ -205,6 +207,16 @@ function App() {
             <Route  
               path="/Journals"
               element={<Journals/>}
+            />
+
+            <Route 
+              path="/HMO"
+              element={<HMO/>}
+            />
+
+            <Route
+              path="/Contacts"
+              element={<Contactpage/>}
             />
           </Routes>
         </BrowserRouter>

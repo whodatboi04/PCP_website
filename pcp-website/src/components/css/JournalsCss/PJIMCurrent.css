@@ -7,13 +7,10 @@
 }
 
 .journal-banner-wrapper{
-    
     max-width: 82.2rem;
 }
 
-.current-wrapper{
-    
-}
+
 
 .current-wrapper h1{
     color: #420505;
@@ -75,28 +72,28 @@
 }
 
 .journal-content-wrapper h2{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 550;
     text-align: center;
     color: #252727;
 }
 
 .journal-content h3{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 550;
     text-decoration: underline;
     color: #292727;
 }
 
 .journal-content h4{
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 550;
     color: #292727;
     max-width: 70rem;
 }
 
 .journal-content p{
-    font-size: 15px;
+    font-size: 14px;
     color: #292727;
     font-style: italic;
     max-width: 70rem;
@@ -134,5 +131,9 @@
 
 .journal-content a:hover::before{
     width: 100%;
+}
+
+.notes-contents .notes-mail{
+    color: #F55C5C;
 }
 

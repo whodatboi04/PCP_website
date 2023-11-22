@@ -32,7 +32,7 @@ export default function Notes() {
                 </div>
                 <div className='notes-card-items notes-right'>
                     <div className='notes-items-header'>
-                        <h2>NOTES</h2>
+                        <h2>DISCLAIMER</h2>
                         <div className='notes-circles'>
                             <div className='n-circles1'></div>
                             <div className='n-circles2'></div>
@@ -41,14 +41,12 @@ export default function Notes() {
                     </div>
                     <div className='n-line'></div>
                     <div className='notes-contents'>
-                        <a><FaLocationArrow size={15} />Instruction to Authors</a>
-                        <a>
-                        <FaLocationArrow size={15} />Recommendations for the Conduct,
-                            Reporting, Editing, and Publication of 
-                            Scholarly Work in Medical Journals
-                        </a>
-                        <a><FaLocationArrow size={15} />Instructions for Submitting an Abstract</a>
-                        <a><FaLocationArrow size={15} />Structured Abstracts</a>
+                        <p>
+                        The Philippine Journal of Internal Medicine (PJIM) is a copyrighted publication of the Philippine College of Physicians (PCP). PCP is the publisher and the owner of the 
+                        copyright of all the articles published in the PJIM. Anyone using the PJIM Online Journal may browse, search, retrieve and view any article, and may store or print single copies of individual articles, 
+                        solely for the user's own use. If any published article is used for reference, proper citation should be made. For information about requesting permission to reuse content from PJIM, 
+                        send an email to <a href='mailto:philjournalofinternalmedicine@gmail.com' className='notes-mail'>philjournalofinternalmedicine@gmail.com.</a>
+                        </p>
                     </div>
                 </div>
             </div>

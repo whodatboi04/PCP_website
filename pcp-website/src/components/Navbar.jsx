@@ -98,12 +98,16 @@ function Navbar() {
                                 <FaAngleDown size={10}/>
                             </NavLink>
                             <NavLink 
-                                to="/Contact" 
+                                to="/Contacts" 
                                 className='nav-items'
                             >
                                 Contact
                                 <FaAngleDown size={10}/>
                             </NavLink>
+                            <a 
+                                href='https://pcponlinestore2023.company.site/' 
+                                className='nav-items'
+                            >Online Store</a>
                             <a 
                                 href='https://www.facebook.com/pcpofficialpage' 
                                 className='icons'>

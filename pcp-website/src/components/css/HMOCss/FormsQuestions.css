@@ -1,0 +1,73 @@
+.formsQ-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.formsQ-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    max-width: 82.2rem;
+}
+
+.forms-moa{
+    max-width: 20rem;
+    min-width: 20rem;
+}
+
+.forms-moa h1{
+    font-size: 25px;
+    font-weight: 550;
+    text-align: center;
+    color: #1F1F29;
+    margin-bottom: 1.5rem;
+}
+
+.forms-moa-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.forms-moa-wrapper a{
+    background-color: #EFEFC7;
+    padding: 1rem;
+    text-decoration: none;
+    color: #1F1C1C;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.forms-moa-wrapper a:hover{
+    background-color: #E7E7BD;
+}
+
+.forms-moa-wrapper a:active{
+    background-color: #E0E0B8;
+}
+
+.FAQ-wrapper{
+    padding: 70px 100px;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EFEFC7;
+}
+
+.FAQ-btn{
+    display: flex;
+    flex-direction: column;
+    max-width: 40rem;
+    
+}
+
+.FAQ-btn button{
+    padding: 15px;
+    text-align: start;
+    background-color: #EFEFC7;
+    border:none;
+    border-bottom: 1px solid black;
+}
