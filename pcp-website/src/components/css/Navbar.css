@@ -19,7 +19,7 @@ header{
 .main-nav{
     display: flex;
     justify-content: space-between;
-    gap: 13rem;
+    gap: 5rem;
     position: relative;
     height: 150px;
     padding: 25px 20px;
