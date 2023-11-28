@@ -16,22 +16,34 @@ function Navbar() {
     const navRef = useRef();
     const [navScrolled, setNavbar] = useState(false);
     const { pathname } = useLocation();
+    const [logoMobile, setLogoMobile] = useState(false);
+    const isMobile = window.innerWidth <= 1024;
 
-    const showNavbar = () => {
-        navRef.current.style.transform = "translateY(0)";
+    const showNavbar = () =>{
+        navRef.current.classList.toggle("responsive_nav");
     }
-    
-    const hideNavbar = () => {
-        navRef.current.style.transform = "translateY(-100vh)";
-    }
-    
 
-    const changeNavBackground = () => {
-        if(window.scrollY >= 100){
-            setNavbar(true);
+    const showMobileLogo = () => {
+        if(isMobile){
+            setLogoMobile(true);
         }else{
-            setNavbar(false);
+            setLogoMobile(false);
         }
+    }
+    
+    //To Show logo if reponsive was executed
+    window.addEventListener('resize', showMobileLogo);
+    
+    const changeNavBackground = () => {
+        
+        if(!isMobile){
+            if(window.scrollY >= 100){
+                setNavbar(true);
+            }else{
+                setNavbar(false);
+            }
+        }
+       
     }
 
     useEffect(() => {
@@ -48,6 +60,11 @@ function Navbar() {
   return (
         <header>
             {/* Navigation Bar */}
+            <img 
+                    src={logoImage}   
+                    alt='Philippine College of Physicians'
+                    className={logoMobile ? 'logo-mobile-none' : 'logo-mobile' }
+            />
             <nav ref={navRef} className={navScrolled ? 'main-nav act' : 'main-nav'}>
                  {/* PCP logo header */}
                 <img 
@@ -138,7 +155,7 @@ function Navbar() {
                     {/* Exit Button */}
                     <button 
                     className='nav-btn exit-menu' 
-                    onClick={hideNavbar}>
+                    onClick={showNavbar}>
                             <FaTimes />
                     </button>
             </nav>

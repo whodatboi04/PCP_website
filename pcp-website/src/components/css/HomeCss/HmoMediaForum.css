@@ -7,9 +7,6 @@
     margin: 4rem auto 0 auto;
 }
 
-
-
-
 .HMO{
     max-width: 750px;
     position: relative;
@@ -91,10 +88,13 @@
 
 .media-learnMore-btn{
     position: absolute;
-    right: .5;
+    right: -2.3rem;
     bottom: .5rem;
-    width: 400px;
-    height: 560px;
+    width: 300px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -104,8 +104,7 @@
     opacity: 0;
     box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
     width: 200px;
-    margin-top: 24.5rem;
-    margin-right: 40px;
+    
 }
 
 .media-learnMore-btn button a{
@@ -117,5 +116,3 @@
     opacity: 0.8;
     background-color: #fff;
 }
-
-

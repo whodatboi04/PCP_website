@@ -123,6 +123,14 @@ header{
     display: none;
 }
 
+.logo-mobile-none {
+    display: none;
+}
+
+.logo-mobile {
+    display: flex;
+}
+
 /* Mobile Responsive */
 @media only screen and (max-width: 1024px){
     
@@ -130,8 +138,10 @@ header{
         display: block;
     }
 
+    
+
     .main-nav {
-        position: fixed;
+        position: fixed !important;
         top: 0;
         left: 0;
         height: 100%;
@@ -143,8 +153,9 @@ header{
         gap: 1.5rem;
         background-color: #fff;
         transition: transform 1s; /* Adjust the transition time */
-        transform: translateY(-100vh);
+        transform: translateY(-100%);
         z-index: 1;
+        border: 1px solid black;
     }
 
     .main-nav.act{
@@ -186,10 +197,6 @@ header{
 
     header .responsive_nav{
         transform: none;
-    }
-
-    .responsive_nav_hidden{
-        display: none;
     }
 
     .main-nav .exit-menu{

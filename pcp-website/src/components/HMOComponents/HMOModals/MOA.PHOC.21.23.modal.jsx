@@ -31,8 +31,8 @@ export default function MOAModal({pahmocData, ...props}) {
                         View
                     </a>
                     <a 
-                        href={pahmocFile.downloadFile}  
-                        download // Provide a suggested filename
+                        href={pahmocFile.downloadFile}
+                        download
                         className='moa-btn from-right'
                     >
                         Download

@@ -1,0 +1,12 @@
+
+.HowToApply-modal-body{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.HowToApply-modal-body img{
+    width: 65rem;
+}
