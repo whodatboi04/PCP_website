@@ -10,13 +10,15 @@
 .moa-dl-forms-modal{
     display: flex;
     gap: 10rem;
+    padding: 2rem;
 }
 
 .moa-dl-forms-modal h3{
-    font-size: 20px;
+    font-size: 18px;
     display: flex;
     align-items: center;
     gap: 10px;
+    
 }
 
 .moa-dl-btn{
@@ -121,5 +123,12 @@
 
 .moa-container button:hover{
     background-color: #4F1D1D;
+}
+
+.moa-modal-btn{
+    border:none;
+    padding: 5px 20px;
+    background-color: #420505;
+    color: #fff;
 }
 

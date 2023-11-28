@@ -17,9 +17,14 @@ function Navbar() {
     const [navScrolled, setNavbar] = useState(false);
     const { pathname } = useLocation();
 
-    const showNavbar = () =>{
-        navRef.current.classList.toggle("responsive_nav");
+    const showNavbar = () => {
+        navRef.current.style.transform = "translateY(0)";
     }
+    
+    const hideNavbar = () => {
+        navRef.current.style.transform = "translateY(-100vh)";
+    }
+    
 
     const changeNavBackground = () => {
         if(window.scrollY >= 100){
@@ -133,7 +138,7 @@ function Navbar() {
                     {/* Exit Button */}
                     <button 
                     className='nav-btn exit-menu' 
-                    onClick={showNavbar}>
+                    onClick={hideNavbar}>
                             <FaTimes />
                     </button>
             </nav>
@@ -141,7 +146,8 @@ function Navbar() {
             {/* Menu Button */}
             <button 
             className='nav-btn menu-button' 
-            onClick={showNavbar}>
+            onClick={showNavbar}
+            >
                     <FaBars />
             </button>
 
