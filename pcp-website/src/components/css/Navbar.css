@@ -9,6 +9,7 @@ header{
     display: flex;
     justify-content: center;
     gap: 20rem;
+    align-items: center;
 }
 
 .main-nav img{
@@ -38,7 +39,7 @@ header{
 .main-nav.act{
     display: flex;
     justify-content: center;
-    position: fixed;
+    position: fixed !important;
     top: 0;
     left: 0;
     width: 100%;
@@ -69,8 +70,12 @@ header{
 
 .navbar .nav-items {
     list-style: none;
-    padding: 12px;
+    padding: 10px;
     position: relative; 
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .navbar .nav-items::before {
@@ -87,13 +92,6 @@ header{
 .navbar .nav-items:hover::before,
 .navbar .nav-items.active::before {
     width: 100%; 
-}
-
-.navbar .nav-items{
-    text-decoration: none;
-    color: black;
-    font-size: 14px;
-    font-family: 'Poppins', sans-serif;
 }
 
 .icons {
@@ -117,29 +115,29 @@ header{
     position: absolute;
     right: 2rem;
     top: 3.5rem;
+    color: #1F1F29;
 }
 
 .dropdown-icon{
     display: none;
 }
 
-.logo-mobile-none {
-    display: none;
+.logo-mobile {
+    display: block;
+    width: 20rem;
+    height: 8rem;
 }
 
-.logo-mobile {
-    display: flex;
-}
 
 /* Mobile Responsive */
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1331px){
     
+
+
     .nav-btn{
         display: block;
     }
-
     
-
     .main-nav {
         position: fixed !important;
         top: 0;
@@ -154,8 +152,7 @@ header{
         background-color: #fff;
         transition: transform 1s; /* Adjust the transition time */
         transform: translateY(-100%);
-        z-index: 1;
-        border: 1px solid black;
+        z-index: 999;
     }
 
     .main-nav.act{

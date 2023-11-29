@@ -17,34 +17,34 @@ function Navbar() {
     const [navScrolled, setNavbar] = useState(false);
     const { pathname } = useLocation();
     const [logoMobile, setLogoMobile] = useState(false);
-    const isMobile = window.innerWidth <= 1024;
 
+    const isMobile = () => window.innerWidth <= 1331;
+    
     const showNavbar = () =>{
         navRef.current.classList.toggle("responsive_nav");
     }
 
     const showMobileLogo = () => {
-        if(isMobile){
-            setLogoMobile(true);
-        }else{
-            setLogoMobile(false);
-        }
-    }
+        setLogoMobile(isMobile());
+    };
     
     //To Show logo if reponsive was executed
     window.addEventListener('resize', showMobileLogo);
     
     const changeNavBackground = () => {
-        
-        if(!isMobile){
-            if(window.scrollY >= 100){
-                setNavbar(true);
-            }else{
-                setNavbar(false);
-            }
+    const windowWidth = window.innerWidth;
+
+    if (windowWidth > 1330) {
+        if (window.scrollY >= 100) {
+            setNavbar(true);
+        } else {
+            setNavbar(false);
         }
-       
+    } else {
+        // If the window width is below 1330px, ensure navScrolled is false
+        setNavbar(false);
     }
+};
 
     useEffect(() => {
         window.addEventListener('scroll', changeNavBackground);
@@ -60,11 +60,13 @@ function Navbar() {
   return (
         <header>
             {/* Navigation Bar */}
-            <img 
-                    src={logoImage}   
-                    alt='Philippine College of Physicians'
-                    className={logoMobile ? 'logo-mobile-none' : 'logo-mobile' }
-            />
+            {logoMobile && (
+                <img
+                    src={logoImage}
+                    alt="Philippine College of Physicians"
+                    className="logo-mobile"
+                />
+            )}
             <nav ref={navRef} className={navScrolled ? 'main-nav act' : 'main-nav'}>
                  {/* PCP logo header */}
                 <img 
@@ -75,18 +77,21 @@ function Navbar() {
                             <NavLink 
                                 to="/" 
                                 className='nav-items'
+                                onClick={showNavbar}
                             >
                                 Home
                             </NavLink>
                             <NavLink 
                                 to="/AboutPcp" 
                                 className='nav-items'
+                                onClick={showNavbar}
                             >
                                 About PCP
                             </NavLink>
                             <NavLink 
                                 to="/Membership" 
                                 className='nav-items'
+                                onClick={showNavbar}
                             >
                                 Membership
                                 <FaAngleDown size={10}/>
@@ -101,6 +106,7 @@ function Navbar() {
                             <NavLink 
                                 to="/Journals" 
                                 className='nav-items'
+                                onClick={showNavbar}
                             >
                                 Journals
                                 <FaAngleDown size={10}/>
@@ -108,6 +114,7 @@ function Navbar() {
                             <NavLink 
                                 to="/Newsletter" 
                                 className='nav-items'
+                                onClick={showNavbar}
                             >
                                 Newsletter
                                 <FaAngleDown size={10}/>
@@ -115,6 +122,7 @@ function Navbar() {
                             <NavLink 
                                 to="/HMO" 
                                 className='nav-items'
+                                onClick={showNavbar}
                             >
                                 HMO'S
                                 <FaAngleDown size={10}/>
@@ -122,6 +130,7 @@ function Navbar() {
                             <NavLink 
                                 to="/Contacts" 
                                 className='nav-items'
+                                onClick={showNavbar}
                             >
                                 Contact
                                 <FaAngleDown size={10}/>
