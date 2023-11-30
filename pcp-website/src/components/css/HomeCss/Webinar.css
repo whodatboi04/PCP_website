@@ -24,3 +24,10 @@
     
 }
 
+@media screen and (max-width: 1330px){
+    .Carousel-webinar{
+        width: 68rem;
+        margin: 3rem auto 3rem auto;
+    }
+}
+

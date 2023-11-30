@@ -9,7 +9,7 @@
 
 .guide-content{
     display: flex;
-    max-width: 90rem;
+    max-width: 82.2rem;
     gap: 6rem;
 }
 
@@ -108,6 +108,68 @@
     padding: 10px 30px;
     border-radius: 28px;
     font-size: 16px;
+}
+
+@media screen and (max-width: 1330px){
+    .guide-content{           
+        max-width: 75rem;
+        display: flex;
+        justify-content: center;
+        gap: 3rem;
+    }
+
+    .guide-fade img{
+        width: 30rem;
+    }
+
+    .guide-fade{
+        width: 30rem;
+    }
+
+    .guide-fade .guide-overlay{
+        height: 20rem;
+    }
+
+    .guide-context{
+        width: 25rem;
+    }
+
+    .guide-context h3{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 990px){
+    .guide-content{
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .guide-fade img{
+        width: 27rem;
+    }
+
+    .guide-fade{
+        width: 27rem;
+    }
+
+    .guide-fade .guide-overlay{
+        height: 18rem;
+    }
+
+    .guide-context{
+        width: 20rem;
+    }
+
+    .guide-context h3{
+        font-size: 16px;
+    }
+    
+    .guide-context a{
+        width: 8rem;
+        font-size: 12px;
+    }
+    
 }
 
 

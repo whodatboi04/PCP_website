@@ -27,9 +27,6 @@
     width: 28rem;
 }
 
-.vaxcert-cert-card img{
-    width: 28rem;
-}
 
 .vaxcert-card-item h2{
     color: #515151;
@@ -60,4 +57,41 @@
 
 .vaxcert-card-item button:hover{
     background-color: #EDEDED;
+}
+
+@media screen and (max-width: 1330px){
+    .vaxcert-wrapper{
+        max-width: 70rem;
+        display: flex;
+        justify-content:center;
+    }
+
+    .vaxcert-card-item{
+        padding: 3rem 16rem; 
+    }
+
+    .vaxcert-card-item img{
+        width: 20rem;
+    }
+}
+
+@media screen and (max-width: 990px){
+    .vaxcert-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4rem;
+    }
+
+    .vaxcert-card-item{
+        padding: 3rem 4rem; 
+    }
+
+    .vaxcert-card-item img{
+        width: 17rem;
+    }
+
+    .vaxcert-card-item h2{
+        font-size: 17px;
+    }
 }

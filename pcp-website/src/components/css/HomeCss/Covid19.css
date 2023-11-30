@@ -75,3 +75,22 @@
     width: 100%;
 }
 
+@media screen and (max-width: 1330px){
+    .Covid-wrapper{
+        width: 72rem;
+    }
+}
+
+@media screen and (max-width: 990px){
+    .Covid-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 2.5rem;
+    }
+
+    .Covid-container h1{
+        font-size: 30px;
+    }
+}

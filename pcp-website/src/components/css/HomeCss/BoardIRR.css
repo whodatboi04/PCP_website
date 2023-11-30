@@ -92,3 +92,38 @@
     font-size: 14px;
     border: none;
 }
+
+@media screen and (max-width: 1330px){
+    .irr-wrapper{
+        max-width: 60rem;
+        gap: 3rem;
+    }
+
+    .irr-card-item{
+        max-width: 30rem;
+    }
+
+    .irr-content img{
+        width: 18rem;
+        max-height: 19rem;
+    }
+
+    .irr-context{
+        width: 16rem;
+    }
+
+
+    .irr-content .irr-overlay{
+        height: 19rem;
+    }
+
+    .irr-context h3{
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 990px){
+    .irr-wrapper{
+        flex-direction: column;
+    }
+}

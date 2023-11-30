@@ -18,12 +18,15 @@ function Navbar() {
     const { pathname } = useLocation();
     const [logoMobile, setLogoMobile] = useState(false);
 
-    const isMobile = () => window.innerWidth <= 1331;
+    //If Webpage is less than 1331 width 
+    const isMobile = () => window.innerWidth < 1331;
     
+    //Show the Burger Navbar menu
     const showNavbar = () =>{
         navRef.current.classList.toggle("responsive_nav");
     }
 
+    //Logo for Mobile 
     const showMobileLogo = () => {
         setLogoMobile(isMobile());
     };
@@ -31,20 +34,20 @@ function Navbar() {
     //To Show logo if reponsive was executed
     window.addEventListener('resize', showMobileLogo);
     
+    //If window scrolled navbar will be fixed 
     const changeNavBackground = () => {
     const windowWidth = window.innerWidth;
 
-    if (windowWidth > 1330) {
-        if (window.scrollY >= 100) {
-            setNavbar(true);
+        if (windowWidth > 1330) {
+            if (window.scrollY >= 100) {
+                setNavbar(true);
+            } else {
+                setNavbar(false);
+            }
         } else {
             setNavbar(false);
         }
-    } else {
-        // If the window width is below 1330px, ensure navScrolled is false
-        setNavbar(false);
-    }
-};
+    };
 
     useEffect(() => {
         window.addEventListener('scroll', changeNavBackground);
@@ -53,6 +56,7 @@ function Navbar() {
         };
     }, []);
 
+    //If Navbar was clicked it will go to top instant
     useEffect(() => {
         window.scrollTo({top: 0, behavior: "instant"});
     }, [pathname]);

@@ -44,3 +44,36 @@
 .book-content button:hover{
     background-color: #E4E4E4;
 }
+
+
+@media screen and (max-width: 1330px){
+    .pcp-book-wrapper{
+        display: flex;
+        justify-content: center;
+        gap: 5rem;
+    }
+
+    .book-content h1{
+        font-weight: 550;
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 990px){
+
+    .pcp-book-container{
+        height: auto;
+        padding: 2.5rem 0;
+    }
+
+    .pcp-book-wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 2.5rem;
+
+    }
+
+    .book img{
+        width: 26rem;
+    }
+}

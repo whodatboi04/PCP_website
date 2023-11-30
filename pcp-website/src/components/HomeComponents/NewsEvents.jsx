@@ -17,7 +17,7 @@ export default function NewsEvents({ NewsSlides }) {
         breakpoint: 1330,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 3,
+          slidesToScroll: 1,
           infinite: true,
           dots: true,
           centerMode: true,
@@ -30,7 +30,7 @@ export default function NewsEvents({ NewsSlides }) {
           slidesToShow: 1,
           slidesToScroll: 1,
           centerMode: true,
-          centerPadding: '1px',
+          centerPadding: '12px',
         }
       }
     ]
