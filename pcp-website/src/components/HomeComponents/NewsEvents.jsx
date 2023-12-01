@@ -30,7 +30,7 @@ export default function NewsEvents({ NewsSlides }) {
           slidesToShow: 1,
           slidesToScroll: 1,
           centerMode: true,
-          centerPadding: '12px',
+          centerPadding: '0'
         }
       }
     ]
@@ -40,7 +40,6 @@ export default function NewsEvents({ NewsSlides }) {
     <div className="newsEvents-container">
       <div className="newsEvents-wrapper">
         <h1>Latest News & Events</h1>
-
         <Slider {...settings}>
           {NewsSlides.map((slides) => (
             <div className="card-items" key={slides.id}>

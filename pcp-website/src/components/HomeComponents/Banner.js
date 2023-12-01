@@ -21,7 +21,7 @@ function ControlledCarousel({ BannerSlides }) {
       <div className="banner-wrapper">
         <div className="Summary-Text">
             <h1>
-              Philippine <br></br>
+              Philippine 
               College <br></br>
               of <span>Physicians</span>
             </h1>

@@ -13,8 +13,13 @@
     width: 82.5rem;
 }
 
-.book img{
+.book{
+    border: 1px solid black;
     width: 40rem;
+}
+
+.book img{
+    width: 100%;
 }
 
 .book-content{
@@ -39,6 +44,7 @@
     width: 140px;
     padding: 10px;
     font-family: 'Poppins', 'sans-serif';
+    color: #1F1F29;
 }
 
 .book-content button:hover{
@@ -50,11 +56,10 @@
     .pcp-book-wrapper{
         display: flex;
         justify-content: center;
-        gap: 5rem;
+        gap: 2rem;
     }
 
     .book-content h1{
-        font-weight: 550;
         font-size: 32px;
     }
 }
@@ -70,10 +75,19 @@
         display: flex;
         flex-direction: column;
         gap: 2.5rem;
-
+        padding: 0 15px;
     }
 
-    .book img{
-        width: 26rem;
+    .book-content h1{
+        font-size: 25px;
+    }
+
+    .book-content button{
+        width: 8rem;
+        font-size: 14px;
+    }
+
+    .book{
+        width: 80%;
     }
 }

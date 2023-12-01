@@ -100,7 +100,6 @@
         flex-direction: column;
         gap: 1rem;
         text-align: center;
-        border: 1px solid #fff;
         padding: 0 1.5rem 0 1.5rem;
     }
 
@@ -177,6 +176,15 @@
         justify-content: center;
         align-items: center;
     }
+
+    .Summary-Text h1{
+        font-size: 30px;
+    }
+
+    .Summary-Text p{
+        font-size: 14px;
+    }
+    
 }
 
 

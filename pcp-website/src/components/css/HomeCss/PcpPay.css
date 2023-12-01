@@ -9,6 +9,8 @@
     display: flex;
     align-items: center;
     gap: 6.5rem;
+    width: 100%;
+    padding: 0 20px;
 }
 
 .pcpPay-wrapper{
@@ -87,6 +89,42 @@
 
 .pcpPay-wrapper button:hover{
     background-color: #4F1D1D;
+}
+
+@media screen and (max-width: 990px){
+    .content-wrapper{
+        gap: 1.5rem;
+    }
+
+    .pcpPay-logo{
+        align-items: center;
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .circle{
+        margin-top: 1rem;
+    }
+
+    .pcpPay-wrapper h3{
+        font-size: 13px;
+    }
+
+    .pcpPay-wrapper h2{
+        font-size: 18px;
+    }
+
+    .pcpPay-wrapper button{
+        width: 10rem;
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 789px){
+    .content-wrapper{
+        flex-direction: column;
+    }
 }
 
 

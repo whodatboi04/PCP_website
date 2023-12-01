@@ -21,13 +21,29 @@
 .Carousel-webinar{
     width: 82.5rem;
     margin: 3rem auto 3rem auto;
+    padding: 15px;
     
 }
 
 @media screen and (max-width: 1330px){
     .Carousel-webinar{
-        width: 68rem;
+        width: 90%;
         margin: 3rem auto 3rem auto;
+    }
+}
+
+@media screen and (max-width: 990px){
+    .webinar-containers h1{
+        margin-bottom: 1rem;
+    }
+
+    .Carousel-webinar{
+        margin: 3rem auto 3rem auto;
+        padding: 1rem;
+    }
+
+    .webinar-containers img{
+        height: auto;
     }
 }
 

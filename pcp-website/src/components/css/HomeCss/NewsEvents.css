@@ -31,13 +31,12 @@
 .slick-slider{
     max-width: 75rem;
     margin-bottom: 3rem;
-    padding: 10px
 }
 
 
 .slick-slider div{
     display: flex;
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
 .slick-prev:before, .slick-next:before{
@@ -77,23 +76,33 @@
         margin-bottom: 3rem;
         padding: 10px;
     }
+
+    .slick-slide > div {
+        display: grid;
+        place-items: center;
+    }
 }
 
 
 @media screen and (max-width: 990px) {
     .newsEvents-wrapper{
-        min-width: 50rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        min-width: 30rem;
+        padding: 0 3rem;
+        width: 100%;
     }
     
     .slick-slider {
         max-width: 30rem;
         margin-bottom: 3rem;
-        padding: 10px;
+        width: 100%;
     }
+
+    .card-items {
+        max-width: 20rem;
+    }
+
+
+
 }
 
 

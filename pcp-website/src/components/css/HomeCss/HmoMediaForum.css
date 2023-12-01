@@ -116,3 +116,16 @@
     opacity: 0.8;
     background-color: #fff;
 }
+
+@media screen and (max-width: 990px){
+    .HMOMedia-wrapper{
+        gap: 5rem;
+    }
+}
+
+@media screen and (max-width: 780px){
+    .HMOMedia-wrapper{
+        flex-direction: column;
+        gap: 2rem;
+    }
+}

@@ -30,7 +30,7 @@ export default function NewsEvents({ SlidesPcpNews }) {
           slidesToShow: 1,
           slidesToScroll: 1,
           centerMode: true,
-          centerPadding: '5px',
+          centerPadding: '1px',
         }
       }
     ]

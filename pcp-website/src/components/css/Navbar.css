@@ -6,10 +6,6 @@
 
 header{
     height: 150px;
-    display: flex;
-    justify-content: center;
-    gap: 20rem;
-    align-items: center;
 }
 
 .main-nav img{
@@ -19,7 +15,7 @@ header{
 
 .main-nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 5rem;
     position: relative;
     height: 150px;
@@ -150,21 +146,7 @@ header{
         transition: transform 1s; /* Adjust the transition time */
         transform: translateY(-100%);
         z-index: 999;
-    }
-
-    .main-nav.act{
-        position: fixed;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        flex-direction: column;
-        gap: 1.5rem;
-        background-color: #fff;
-        transition: transform 1s;
-        z-index: 999;
-    }
-    
+    }   
 
     .navbar{
         display: flex;
@@ -198,6 +180,12 @@ header{
         top: 2rem;
         right: 2rem;
         color: #1F1F29;
+    }
+    
+    header{
+        display: flex;
+        align-items: center;
+        padding: 15px;
     }
 }
 

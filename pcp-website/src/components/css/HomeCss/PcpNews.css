@@ -63,8 +63,24 @@
 }
 
 @media screen and (max-width: 990px) {
+
     .card-items-news h3{
         max-width: 20rem;
+        font-size: 22px;
+    }
+
+    .pcpnews-wrapper{
+        width: 100%;
+        padding: 5px 3.5rem;
+        min-width: 30rem;
+    }
+    
+    .card-pcp-news{
+        max-width: 23rem;
+    }
+
+    .pcpnews-wrapper h1{
+        margin-bottom: 5px;
     }
 }
 
@@ -73,143 +89,11 @@
 
 
 
-/* .card-pcp-news{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
-    max-width: 60rem;
-    margin: 2rem auto;
-}
-
-.card-items-news{
-    max-width: 320px;
-    background-color: #EBEBEB;
-    padding: 30px;
-    position: relative;
-    width: 300px
-}
-
-.card-items-news h3{
-    color: red;
-    font-family: 'Poppins', 'sans-serif';
-    font-size: 23px;
-}
-
-.card-items-news button{
-    background-color: #572525;
-    color: #fff;
-    border: none;
-    border-radius: 28px;
-    width: 90px;
-    font-size: 12px;
-    padding: 5px;
-    left: 10.5rem;
-    top: .5rem;
-    cursor: pointer;
-    z-index: 1;
-}
-
-.card-items-news button:hover{
-    background-color: #4F1D1D;
-}
-
-.date{
-    color: #524949;
-} */
 
 
 
 
 
-
-
-
-/* .pcp-news-container{
-    position: relative;
-    display: flex;
-    justify-content: center;
-}
-
-.pcp-news-container h1{
-    margin-top: 3.5rem;
-    text-align: center;
-    font-size: 35px;
-    color: #383838;
-    font-family: 'Poppins', 'sans-serif';
-    font-weight: 800;
-}
-
-.pcp-news-container p{
-    text-align: center;
-    margin-top: -10px;
-    color: #4B4B4B;
-}
-
-.pcp-news-wrapper{
-    height: 400px;
-    width: 82.5rem;
-}
-
-
-.carousel-slides-news{
-    margin-top: 4rem;
-    width: 100%;
-    height: 400px;
-}
-
-.card-pcp-news{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    max-width: 60rem;
-    margin: 2rem auto;
-}
-
-.card-items-news{
-    max-width: 320px;
-    background-color: #EBEBEB;
-    padding: 30px;
-    position: relative;
-    width: 300px
-}
-
-.card-items-news h3{
-    color: red;
-    font-family: 'Poppins', 'sans-serif';
-    font-size: 23px;
-}
-
-.card-items-news button{
-    background-color: #572525;
-    color: #fff;
-    border: none;
-    border-radius: 28px;
-    width: 90px;
-    font-size: 12px;
-    padding: 5px;
-    position: relative;
-    left: 10.5rem;
-    top: .5rem;
-    cursor: pointer;
-    z-index: 1;
-}
-
-.card-items-news button:hover{
-    background-color: #4F1D1D;
-}
-
-.date{
-    color: #524949;
-}
-
-.pcp-news-carousel-btn{
-    margin-bottom: 1rem;
-}
-
-.next{
-    
-} */
 
 
 
