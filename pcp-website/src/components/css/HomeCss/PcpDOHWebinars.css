@@ -1,4 +1,72 @@
+.pcpdoh-container{
+    display: flex;
+    justify-content:center;
+    margin-top: 3rem;
+    padding: 20px;
+}
 
+.pcpdoh-wrapper{
+    max-width: 82.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+}
+
+.pcpdoh-wrapper h1{
+    text-align: center;
+    margin-bottom: 3rem;
+    font-weight: 550;
+    color: #383838;
+}
+
+.pcpdoh-webinars{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 60rem;
+    margin: 2rem auto;
+    padding: 30px 20px; 
+    background-color: #EBEBEB;
+    min-height: 10rem;
+}
+
+.pcpdoh-webinar-items{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.pcpdoh-webinar-items h3{
+    color: #FF4343;
+    font-size: 23px;
+}
+
+.pcpdoh-webinar-items button{
+    position: absolute;
+    background-color: #572525;
+    color: #fff;
+    border: none;
+    border-radius: 28px;
+    width: 8rem;
+    font-size: 14px;
+    padding: 5px 10px;
+    z-index: 1; 
+    bottom: -16px;
+}
+
+.pcpdoh-webinar-items button:hover{
+    background-color: #4F1D1D;
+}
+
+.pcpdoh-webinar-items button:active{
+    background-color: #491717;
+}
+
+
+/* 
 .pcp-doh-container{
     position: relative;
     margin-top: 7rem;
@@ -83,7 +151,7 @@
 .pcp-doh-next, .pcp-doh-prev{
     margin-top: 10rem;
 
-}
+} */
 
 
 

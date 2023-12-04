@@ -2,6 +2,7 @@
     margin-top: 8rem;
     max-width: 70rem;
     margin: 0 auto;
+    padding: 20px;
 }
 
 .comttee-container h1{
@@ -18,6 +19,7 @@
     justify-content:center;
     max-width: 60rem;
     margin: 0 auto;
+    width: 100%;
 }
 
 .comttee-card-items{
@@ -58,4 +60,24 @@
 
 .comttee-card-items button:hover{
     background-color: #4F1D1D;
+}
+
+@media screen and (max-width: 990px){
+    .comttee-card-wrapper{
+        flex-wrap: wrap;
+        gap: 4rem;
+    }
+    
+    .comttee-container h1{
+        font-size: 25px;
+    }
+
+    .comttee-card-items h2{
+        font-size: 18px;
+    }
+
+    .comttee-card-items button{
+        padding: 5px;
+        font-size: 15px;
+    }
 }

@@ -2,6 +2,7 @@ footer{
     display: flex;
     justify-content: space-evenly;
     background-color: #F8F8F8;
+    padding: 0 20px;
 }
 
 .footer-wrapper{
@@ -9,6 +10,7 @@ footer{
     max-width: 82.2rem;
     gap: 10rem;
     align-items: center;
+    margin-bottom: 2rem;
 }
 
 footer img{
@@ -50,3 +52,27 @@ footer img{
     color: black;
 }
 
+@media only screen and (max-width: 1331px){
+    .footer-wrapper{
+        gap: 2rem;
+
+    }
+}
+
+@media screen and (max-width: 990px){
+    .footer-wrapper{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 658px){
+    .footer-wrapper{
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    footer img{
+        margin-bottom: -20px;
+    }
+}

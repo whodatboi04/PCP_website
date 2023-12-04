@@ -19,20 +19,27 @@ function Navbar() {
     const [logoMobile, setLogoMobile] = useState(false);
 
     //If Webpage is less than 1331 width 
-    const isMobile = () => window.innerWidth < 1331;
+    const isMobile = () => window.innerWidth < 1330;
     
     //Show the Burger Navbar menu
     const showNavbar = () =>{
         navRef.current.classList.toggle("responsive_nav");
     }
 
-    //Logo for Mobile 
+    // Logo for Mobile 
     const showMobileLogo = () => {
         setLogoMobile(isMobile());
     };
-    
-    //To Show logo if reponsive was executed
-    window.addEventListener('resize', showMobileLogo);
+
+    // To Show logo if responsive was executed
+    useEffect(() => {
+        showMobileLogo(); // Check on initial load
+        window.addEventListener('resize', showMobileLogo);
+        
+        return () => {
+            window.removeEventListener('resize', showMobileLogo);
+        };
+    }, []);
     
     //If window scrolled navbar will be fixed 
     const changeNavBackground = () => {

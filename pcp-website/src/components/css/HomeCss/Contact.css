@@ -3,11 +3,12 @@
     justify-content: center;
     margin-top: 3rem;
     margin-bottom: 2rem;
+    padding: 20px;
 }
 
 .contact-wrapper{
     max-width: 82.2rem;
-    
+    width: 100%;
 }
 
 .contact-wrapper h1{
@@ -97,6 +98,25 @@
     background-color: #DDDADA;
 }
 
+@media screen and (max-width: 1154px){
+    .contact-cotent{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .contact-info{
+        width: 100%;
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 658px) {
+    .contact-details{
+        flex-wrap: wrap;
+        gap: 1px;
+        display: block;
+    }
+}
 
 
 

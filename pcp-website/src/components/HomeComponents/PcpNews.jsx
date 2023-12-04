@@ -40,7 +40,6 @@ export default function NewsEvents({ SlidesPcpNews }) {
     <div className="pcpnews-container">
       <div className="pcpnews-wrapper">
         <h1>PCP Breaking News</h1>
-
         <Slider {...settings}>
           {SlidesPcpNews.map((newsSlide) => (
             <div className='card-pcp-news' key={newsSlide.id}>

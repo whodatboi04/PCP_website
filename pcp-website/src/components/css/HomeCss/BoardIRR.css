@@ -123,7 +123,13 @@
 }
 
 @media screen and (max-width: 990px){
+    .irr-container{
+        margin-top: 1rem;
+    }
+
     .irr-wrapper{
-        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 4rem;
     }
 }

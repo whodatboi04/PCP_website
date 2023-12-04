@@ -50,7 +50,6 @@ function ControlledCarousel({ BannerSlides }) {
                     alt="First slide" 
                     className="banner-img img1" 
                   />
-                  <Carousel.Caption className="banner-caption">
                   <a href={PosterSlide.learnMore}>
                       <div 
                         className="btn" 
@@ -62,6 +61,8 @@ function ControlledCarousel({ BannerSlides }) {
                           </button>
                       </div>
                   </a>
+                  <Carousel.Caption className="banner-caption">
+    
                   </Carousel.Caption>
                 </Carousel.Item>
             ))}

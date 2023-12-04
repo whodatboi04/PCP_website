@@ -1,0 +1,29 @@
+/* Location.css */
+
+.google-map {
+    position: relative;
+    width: 100%;
+    max-width: 650px;
+    margin: 0 auto;
+  }
+  
+  .pcp-map {
+    width: 100%;
+    height: 300px; 
+    border: 0;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .pcp-map {
+      height: 200px; 
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .pcp-map {
+      height: 150px; 
+    }
+  }
+  
