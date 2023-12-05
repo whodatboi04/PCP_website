@@ -43,18 +43,19 @@ function Navbar() {
     
     //If window scrolled navbar will be fixed 
     const changeNavBackground = () => {
-    const windowWidth = window.innerWidth;
+        const windowWidth = window.innerWidth;
 
-        if (windowWidth > 1330) {
+        if(windowWidth > 1330){
             if (window.scrollY >= 100) {
                 setNavbar(true);
             } else {
                 setNavbar(false);
             }
-        } else {
+        }else{
             setNavbar(false);
         }
     };
+    
 
     useEffect(() => {
         window.addEventListener('scroll', changeNavBackground);
@@ -62,6 +63,7 @@ function Navbar() {
             window.removeEventListener('scroll', changeNavBackground);
         };
     }, []);
+
 
     //If Navbar was clicked it will go to top instant
     useEffect(() => {

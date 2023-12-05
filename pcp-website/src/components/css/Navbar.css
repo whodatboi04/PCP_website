@@ -43,7 +43,7 @@ header{
 .main-nav.act{
     display: flex;
     justify-content: center;
-    position: fixed !important;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -129,8 +129,9 @@ header{
 
 .logo-mobile {
     display: block;
-    width: 20rem;
-    height: 8rem;
+    width: 14rem;
+    height: 5.5rem;
+    margin-top: 1rem;
 }
 
 
@@ -195,6 +196,14 @@ header{
         display: flex;
         align-items: center;
         padding: 15px;
+    }
+}
+
+@media only screen and (max-width: 428px){
+    .main-nav img{
+        max-width: 18rem;
+        height: auto;
+        width: 100%;
     }
 }
 
