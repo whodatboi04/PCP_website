@@ -30,3 +30,16 @@
     transition: transform .5s ease;
     transform: scale(1.02);
 }
+
+@media only screen and (max-width: 656px){
+    .mindanao-content{
+        flex-direction: column;
+        gap: 2rem;
+        width: 100%;
+        padding: 20px;
+    }
+    
+    .mindanao-btn{
+        width: 100%;
+    }
+}

@@ -8,7 +8,7 @@ export default function NCR() {
         <h1>NATIONAL <span>CAPITAL REGION</span></h1>
         <div className='ncr-wrapper'>
             <div className='ncr-items'>
-                <div className='ncr-first-items'>
+                <div className='ncr ncr-first-items'>
                     <Link 
                         to="/Chapters/Camanava"
                         className='ncr-btn-items'
@@ -28,7 +28,7 @@ export default function NCR() {
                         MANILA CHAPTER
                     </Link>
                 </div>
-                <div className='ncr-second-items'>
+                <div className='ncr ncr-second-items'>
                     <Link
                         to="/Chapters/Matapat"
                         className='ncr-btn-items'
@@ -48,7 +48,7 @@ export default function NCR() {
                         PASAY CHAPTER
                     </Link>
                 </div>
-                <div className='ncr-third-items'>
+                <div className='ncr ncr-third-items'>
                     <Link
                         to="/Chapters/Pamunlas"
                         className='ncr-btn-items'

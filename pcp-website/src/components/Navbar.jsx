@@ -1,14 +1,9 @@
-import React, {useRef,useEffect, useState} from 'react';
-import { FaFacebookF } from 'react-icons/fa';
-import { FaTwitter } from 'react-icons/fa';
-import { FaLinkedinIn } from 'react-icons/fa';
-import { FaUserAlt } from 'react-icons/fa';
-import {FaBars} from 'react-icons/fa';
+import React, { useRef, useEffect, useState } from 'react';
+import { FaFacebookF, FaTwitter, FaLinkedinIn, FaUserAlt, FaBars, FaTimes, FaAngleDown } from 'react-icons/fa';
 import logoImage from './img/HomeImage/Logo-header.png';
-import {FaTimes} from 'react-icons/fa';
-import {FaAngleDown} from 'react-icons/fa';
-import "./css/Navbar.css";
 import { NavLink, useLocation } from 'react-router-dom';
+import "./css/Navbar.css";
+
 
 
 function Navbar() {
@@ -18,7 +13,7 @@ function Navbar() {
     const { pathname } = useLocation();
     const [logoMobile, setLogoMobile] = useState(false);
 
-    //If Webpage is less than 1331 width 
+    //If Webpage is less than 1331 width function
     const isMobile = () => window.innerWidth < 1330;
     
     //Show the Burger Navbar menu
@@ -43,17 +38,17 @@ function Navbar() {
     
     //If window scrolled navbar will be fixed 
     const changeNavBackground = () => {
-        const windowWidth = window.innerWidth;
 
-        if(windowWidth > 1330){
-            if (window.scrollY >= 100) {
+        if(isMobile()){
+            setNavbar(false);
+        } else{
+            if(window.scrollY >= 100){
                 setNavbar(true);
-            } else {
+            } else{
                 setNavbar(false);
             }
-        }else{
-            setNavbar(false);
-        }
+        } 
+
     };
     
 
@@ -112,6 +107,7 @@ function Navbar() {
                             <NavLink 
                                 to="/Chapters" 
                                 className='nav-items'
+                                onClick={showNavbar}
                             >
                                 Chapters
                                 <FaAngleDown size={10}/>

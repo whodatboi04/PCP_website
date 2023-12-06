@@ -61,7 +61,7 @@ function HmoMediaForum({MediaComm}) {
                             className='Media-Carousel'
                         >
                         {MediaComm.map((Media) => (
-                            <Carousel.Item>
+                            <Carousel.Item key={Media.id}>
                                 <img 
                                     src={Media.image} 
                                     alt='Philippine College of Physicians' />

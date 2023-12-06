@@ -27,7 +27,7 @@ function ForumCovid19({ForumCovid}) {
           interval={4000}
         >
           {ForumCovid.map((ForumHealthCovid) => (
-            <Carousel.Item className='forum-carousel-item'>
+            <Carousel.Item className='forum-carousel-item' key={ForumHealthCovid.id}>
                 <img 
                   src={ForumHealthCovid.image} 
                   text="First slide" 
