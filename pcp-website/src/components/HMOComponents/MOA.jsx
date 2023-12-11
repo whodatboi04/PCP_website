@@ -8,6 +8,9 @@ import PAHMOCData  from '../../data/HMOData/PAHMOC'
 import PAHMOCModal1820 from './HMOModals/MOA.PHOC.18.20.modal'
 import AHMOPIModal2123 from './HMOModals/MOA.AMPI.21.23.modal'
 import AHMOPIModal1820 from './HMOModals/MOA.AMPI.18.20.modal'
+import PAHMOC1820 from '../../data/HMOData/PAHMOC1820.json'
+import AMPI2123 from '../../data/HMOData/AMPI2123.json'
+import AMPI1820 from '../../data/HMOData/AMPI1820.json'
 
 export default function MOA() {
     const [showModalPahmoc, setShowModalPahmoc ] = useState(false);
@@ -38,6 +41,7 @@ export default function MOA() {
                     <PAHMOCModal1820 
                         show={show1820PamocModal}
                         onHide={() => setShow1820PahmocModal(false)}
+                        pahmoc1820={PAHMOC1820}
                     />
                 </div>
             </div>
@@ -52,11 +56,13 @@ export default function MOA() {
                     <AHMOPIModal2123 
                         show={show2123AHMPIModal}
                         onHide={() => setShow2123AHMPIModal(false)}
+                        ampiFile2123={AMPI2123}
                     />
                     <button onClick={() => setShow1820AHMPIModal(true)}><FaFolderOpen/> MOA 2018-2020</button>
                     <AHMOPIModal1820 
                         show={show1820AHMPIModal}
                         onHide={() => setShow1820AHMPIModal(false)}
+                        ampiData1820={AMPI1820}
                     />
                 </div>
             </div>

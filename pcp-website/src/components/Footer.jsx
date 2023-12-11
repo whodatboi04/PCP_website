@@ -37,7 +37,6 @@ export default function Footer() {
                     <a href='https://www.linkedin.com/company/philippine-college-of-physicians/'><FaLinkedinIn /></a>
                 </div>
             </div>
-            
         </footer>
     </>
   )

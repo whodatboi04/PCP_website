@@ -57,6 +57,7 @@ import CaragaData from './data/ChaptersData/CaragaData.json'
 import Journals from "./pages/Journals";
 import Contactpage from "./pages/Contactpage";
 import HMO from "./pages/HMO";
+import Newsletter from "./pages/Newsletter";
 
 
 
@@ -207,6 +208,11 @@ function App() {
             <Route  
               path="/Journals"
               element={<Journals/>}
+            />
+
+            <Route
+              path="/Newsletter"
+              element={<Newsletter/>}
             />
 
             <Route 
