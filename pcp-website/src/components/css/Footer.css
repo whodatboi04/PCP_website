@@ -11,6 +11,7 @@ footer{
     gap: 10rem;
     align-items: center;
     margin-bottom: 2rem;
+    width: 100%;
 }
 
 footer img{
@@ -69,10 +70,12 @@ footer img{
 @media screen and (max-width: 658px){
     .footer-wrapper{
         flex-direction: column;
-        gap: 1rem;
+        gap: 0c;
     }
 
     footer img{
         margin-bottom: -20px;
+        width: 100%;
+        height: auto;
     }
 }

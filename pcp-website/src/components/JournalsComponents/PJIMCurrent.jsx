@@ -12,8 +12,9 @@ export default function PJIMCurrent({props}) {
                     <h3>Phi. Journal of Internal Medicine (Vol. 61 No. 3)</h3>
                     <div className='journal-banner'>
                         <div className='banner-bg'>
+                            <img src={JournalBanner} alt='Philippine Journal of Internal medicine' />
                         </div>
-                        <img src={JournalBanner} alt='Philippine Journal of Internal medicine' />
+                        
                     </div>
                 </div>
             </div>
@@ -32,8 +33,6 @@ export default function PJIMCurrent({props}) {
                     ))}
                 </div>
             </div>
-                
-            
         </div>
     </div>
   )

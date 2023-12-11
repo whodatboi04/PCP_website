@@ -21,12 +21,7 @@ export default function PJIMArchives() {
         {
             name: 'Action',
             id: 'action',
-            selector: row => <a href={row.action} style={{ 
-                backgroundColor: '#f1f1f5', 
-                padding: '15px', 
-                borderRadius: '4rem',
-                textDecoration: 'none'
-            }}>
+            selector: row => <a href={row.action}  className='PJIMArch-btn'>
                 Learn More
             </a>,
             

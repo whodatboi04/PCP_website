@@ -1,16 +1,17 @@
-
-
 .journal-banner-container{
     display: flex;
     justify-content: center;
-    
+    padding: 20px;
 }
 
 .journal-banner-wrapper{
     max-width: 82.2rem;
+    width: 100%;
 }
 
-
+.current-wrapper{
+    width: 100%;
+}
 
 .current-wrapper h1{
     color: #420505;
@@ -24,7 +25,6 @@
 }
 
 .journal-banner{
-    
     margin: 4rem 0 4rem 0; 
     height:  16rem;
     display: flex;
@@ -40,13 +40,15 @@
     display: flex;
     justify-content: center;
     border-radius: 28px;
+    position: relative;
 }
 
 .current-wrapper img{
-    width: 42rem;
+    max-width: 42rem;
     border-radius: 38px;
     position: absolute;
-    
+    width: 100%;
+    top: -2.5rem;
 }
 
 
@@ -64,7 +66,8 @@
     display: flex;
     justify-content: center;
     background-color: #F7F7F7;
-    padding: 3rem 0;
+    padding: 3rem;
+    
 }
 
 .journal-content-wrapper{
@@ -133,7 +136,51 @@
     width: 100%;
 }
 
-.notes-contents .notes-mail{
-    color: #F55C5C;
+@media only screen and (max-width: 990px){
+    .journal-banner img{
+        max-width: 35rem;
+        width: 100%;
+    }
+
+    .banner-bg{
+        height: 10.5rem;
+    }
+
+    .current-wrapper h1{
+        font-size: 23px;
+    }
+    
+    .current-wrapper h3{
+        font-size: 16px;
+    }
+
+    .journal-content p{
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 656px){
+    .journal-banner{
+        margin-bottom: 0;
+    }
+
+    .journal-banner img{
+        max-width: 23rem;
+    }
+
+    .banner-bg{
+        height: 6rem;
+    }
+}
+
+@media only screen and (max-width: 465px){
+    .journal-banner img{
+        max-width: 17rem;
+        top: -10px;
+    }
+
+    .banner-bg{
+        height: 5.7rem;
+    }
 }
 

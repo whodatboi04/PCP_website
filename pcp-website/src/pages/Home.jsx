@@ -22,11 +22,10 @@ import ConactUs from "../components/HomeComponents/Contact"
 import Guidelines from '../components/HomeComponents/Guidelines'
 import BoardIRR from '../components/HomeComponents/BoardIRR'
 
-
 export default function Home(){
-
     return (
       <>
+        
 
           {/* Carousel Bootstrap Banner for Poster Events */}
             <ControlledCarousel BannerSlides={bannerData}/>

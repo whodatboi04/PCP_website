@@ -12,17 +12,26 @@
     display: flex;
     justify-content: center;
     margin-top: 4rem;
+    padding: 0 25px;
 }
 
 .pjimArch-wrapper{
     max-width: 70rem;
-    min-width: 70rem;
+    width: 100%;
 }
 
 .pjimArch-wrapper h1{
     color: #420505;
     font-weight: 550;
     font-size: 28px;
+}
+
+.PJIMArch-btn{
+    background-color: #f1f1f5;
+    padding: 15px;
+    border-radius: 4rem;
+    text-decoration: none;
+    margin-left: 10rem;
 }
 
 .pjim-search{
