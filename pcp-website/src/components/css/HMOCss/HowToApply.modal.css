@@ -1,12 +1,13 @@
-
 .HowToApply-modal-body{
     display: flex;
     flex-direction: column;
     gap: 2rem;
     justify-content: center;
     align-items: center;
+    padding: 25px;
 }
 
 .HowToApply-modal-body img{
-    width: 65rem;
+    max-width: 65rem;
+    width: 100%;
 }

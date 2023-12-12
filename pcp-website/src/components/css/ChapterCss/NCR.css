@@ -48,6 +48,7 @@
     display: flex;
     justify-content: center;
     text-decoration: none;
+    text-align: center;
 }
 
 .ncr-btn-items:hover{
@@ -62,9 +63,5 @@
         flex-wrap: wrap;
         justify-content: center;
         padding: 20px;
-    }
-
-    .ncr-btn-items{
-        border: 1px solid #E0E0E0;
     }
 }

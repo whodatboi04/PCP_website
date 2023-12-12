@@ -162,6 +162,7 @@
 @media only screen and (max-width: 656px){
     .journal-banner{
         margin-bottom: 0;
+        margin-top: 0;
     }
 
     .journal-banner img{

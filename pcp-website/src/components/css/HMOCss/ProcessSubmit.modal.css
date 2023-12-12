@@ -4,8 +4,10 @@
     gap: 2.5rem;
     justify-content: center;
     align-items: center;
+    padding: 25px;
 }
 
 .process-submit-modal-body img{
-    width: 65rem;
+    max-width: 65rem;
+    width: 100%;
 }

@@ -59,7 +59,6 @@ header{
     align-items: center;
     justify-content: center;
     margin: 1rem;
-    margin-left: -65px;
     margin-top: -2px;
 }
 
@@ -68,7 +67,8 @@ header{
     align-items: center;
     justify-content: center;
     margin: 1rem;
-    margin-left: -65px;
+    
+    gap: 5px;
 }
 
 .navbar .nav-items {

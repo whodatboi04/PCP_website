@@ -63,8 +63,6 @@ export default function NCR() {
                     </Link>
                 </div>
             </div>
-            
-            
         </div>
     </div>
   )

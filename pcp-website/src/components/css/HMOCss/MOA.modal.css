@@ -1,6 +1,8 @@
 
 .MOA-modal-body{
     padding: 2rem;
+    border: 1px solid black;
+    padding: 15px;
 }
 
 .MOA-header{
@@ -11,6 +13,7 @@
     display: flex;
     gap: 10rem;
     padding: 2rem;
+    
 }
 
 .moa-dl-forms-modal h3{
@@ -24,6 +27,7 @@
 .moa-dl-btn{
     display: flex;
     gap: 1rem;
+    width: 100%;
 }
 
 .moa-btn{
@@ -132,3 +136,9 @@
     color: #fff;
 }
 
+@media screen and (max-width: 990px){
+    .moa-dl-forms-modal{
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+}

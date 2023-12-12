@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0 20px;
 }
 
 .chapters-containter h1{
@@ -22,8 +23,8 @@
 
 .chapters-content {
     padding: 1.5rem 10rem;
-    min-width: 82.2rem;
     max-width: 82.2rem;
+    width: 100%;
 }
 
 .chapters-content p{
@@ -41,6 +42,10 @@
     font-weight: 550;
     color: #5B1E1E;
     margin-bottom: 1rem;
+}
+
+.chapters-main-table{
+    width: 100%;
 }
 
 .chapters-main-table h4{
@@ -73,11 +78,28 @@
     padding: 10px;
 }
 
-
 .chapters-board{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+}
+
+@media screen and (max-width: 990px){
+    .chapters-content{
+        padding: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 758px){
+    .chapters-main-table th{
+        padding-right: 8rem;
+    }
+}
+
+@media screen and (max-width: 490px){
+    .chapters-main-table th{
+        padding-right: 1.5rem;
+    }
 }
 
 

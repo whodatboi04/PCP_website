@@ -1,0 +1,22 @@
+.chapters-dropdown {
+    position: absolute;
+    display: none;
+    background-color: maroon;
+  }
+  
+  .chapters-dropdown-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chapters-dropdown-content a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .chapters-dropdown:hover .chapters-dropdown-content {
+    display: block;
+  }
+  

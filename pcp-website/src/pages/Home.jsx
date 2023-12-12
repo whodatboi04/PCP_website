@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import ControlledCarousel from "../components/HomeComponents/Banner"
 import NewsEvents from "../components/HomeComponents/NewsEvents"
 import PcpNews from "../components/HomeComponents/PcpNews"
@@ -21,54 +21,67 @@ import CmtteeUpdt from '../components/HomeComponents/CmtteeUpdt'
 import ConactUs from "../components/HomeComponents/Contact"
 import Guidelines from '../components/HomeComponents/Guidelines'
 import BoardIRR from '../components/HomeComponents/BoardIRR'
+import ClipLoader from "react-spinners/ClipLoader";
 
-export default function Home(){
-    return (
-      <>
-        
 
+export default function Home() {
+  // const [loading, setLoading] = useState(false);
+
+  // useEffect(() => {
+  //   setLoading(true);
+  //   setTimeout(() => {
+  //     setLoading(false);
+  //   }, 3000);
+  // }, []);
+
+  return (
+    <>
+      {/* {loading ? (
+        <ClipLoader
+          loading={loading}
+          size={150}
+          aria-label="Loading Spinner"
+          data-testid="loader"
+        />
+      ) : ( */}
+        <>
           {/* Carousel Bootstrap Banner for Poster Events */}
-            <ControlledCarousel BannerSlides={bannerData}/>
-
+          <ControlledCarousel BannerSlides={bannerData} />
 
           {/* Latest News And Events */}
-            <NewsEvents NewsSlides={SlidesNews}/>
+          <NewsEvents NewsSlides={SlidesNews} />
 
-    
           {/* PCP Breaking News */}
-            <PcpNews SlidesPcpNews={PcpSlidesNews}/>
+          <PcpNews SlidesPcpNews={PcpSlidesNews} />
 
-    
           {/* PCP Book */}
-            <PcpBook/>
-            
+          <PcpBook />
 
           {/* PCP Webinars   */}
-            <Webinars webinarSlides={webinarsData}/>
-
+          <Webinars webinarSlides={webinarsData} />
 
           {/* Covid-19 Updates   */}
-            <Covid19 />
+          <Covid19 />
 
           {/* Covid-19 Vaccination & Certificate Claim  */}
-            <VaxCert />
+          <VaxCert />
 
           {/* PCP Brochure & PCP-CPD Board Resolution
             & 2021 Amended By-Laws & PCP Research Guidelines */}
-            <PcpBrochure  PcpBrochureContents={PcpBrochureData} />
+          <PcpBrochure PcpBrochureContents={PcpBrochureData} />
 
-            {/* Amended By-Laws / Research Guidelines */}
-            <Guidelines />
+          {/* Amended By-Laws / Research Guidelines */}
+          <Guidelines />
 
-            {/* Board Resolution & IRR */}
-            <BoardIRR/>
+          {/* Board Resolution & IRR */}
+          <BoardIRR />
 
           {/* PCP Online Payment  */}
-            <PcpPay />
+          <PcpPay />
 
           {/* Update on HMO's & Media communication
           & Recent Webinars/Health Forum For Covid-19 Vaccines */}
-          <HmoMediaForum MediaComm={MediaCommData}/>
+          <HmoMediaForum MediaComm={MediaCommData} />
 
           {/* PCP-DOH Webinars Series */}
           <PcpDOHWebinars DOHWebinars={DOHWebinarsData} />
@@ -76,11 +89,11 @@ export default function Home(){
           {/* Committee Updates */}
           <CmtteeUpdt />
 
-          
           {/* Contact Us */}
           <ConactUs />
-
-      </>
-    );
-
+        </>
+      {/* )} */}
+    </>
+  );
 }
+
