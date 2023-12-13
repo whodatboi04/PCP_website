@@ -1,0 +1,13 @@
+.NLcard-container{
+    border: 1px solid black;
+    padding: 0 20px;
+}
+
+.NLcard-wrapper{
+    border: 1px solid black;
+    max-width: 82.2rem;
+}
+
+.NLcard-wrapper img{
+    max-width: 10rem;
+}
