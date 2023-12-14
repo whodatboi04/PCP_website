@@ -8,7 +8,6 @@ import ChaptersDropItems from '../pages/RegionalChapters/ChaptersDropItems';
 
 
 function Navbar() {
-
     const navRef = useRef();
     const [navScrolled, setNavbar] = useState(false);
     const { pathname } = useLocation();
@@ -40,7 +39,6 @@ function Navbar() {
     
     //If window scrolled navbar will be fixed 
     const changeNavBackground = () => {
-
         if(isMobile()){
             setNavbar(false);
         } else{
@@ -50,7 +48,6 @@ function Navbar() {
                 setNavbar(false);
             }
         } 
-
     };
     
     useEffect(() => {
