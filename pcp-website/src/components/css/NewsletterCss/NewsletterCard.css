@@ -31,8 +31,9 @@
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
-    width: 74rem;
+    max-width: 74rem;
     margin: 3rem auto;
+    width: 100%;
 }
 
 .NLcard-overlay {
@@ -62,4 +63,10 @@
     font-weight: 550;
     text-decoration: underline;
     border: none;
+}
+
+@media screen and (max-width: 1268px){
+    .NLcard-items{
+        justify-content: center;
+    }
 }
