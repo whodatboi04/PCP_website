@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React from 'react'
 import ControlledCarousel from "../components/HomeComponents/Banner"
 import NewsEvents from "../components/HomeComponents/NewsEvents"
 import PcpNews from "../components/HomeComponents/PcpNews"
@@ -25,71 +25,24 @@ import ClipLoader from "react-spinners/ClipLoader";
 
 
 export default function Home() {
-  // const [loading, setLoading] = useState(false);
-
-  // useEffect(() => {
-  //   setLoading(true);
-  //   setTimeout(() => {
-  //     setLoading(false);
-  //   }, 3000);
-  // }, []);
 
   return (
     <>
-      {/* {loading ? (
-        <ClipLoader
-          loading={loading}
-          size={150}
-          aria-label="Loading Spinner"
-          data-testid="loader"
-        />
-      ) : ( */}
         <>
-          {/* Carousel Bootstrap Banner for Poster Events */}
           <ControlledCarousel BannerSlides={bannerData} />
-
-          {/* Latest News And Events */}
           <NewsEvents NewsSlides={SlidesNews} />
-
-          {/* PCP Breaking News */}
           <PcpNews SlidesPcpNews={PcpSlidesNews} />
-
-          {/* PCP Book */}
           <PcpBook />
-
-          {/* PCP Webinars   */}
           <Webinars webinarSlides={webinarsData} />
-
-          {/* Covid-19 Updates   */}
           <Covid19 />
-
-          {/* Covid-19 Vaccination & Certificate Claim  */}
           <VaxCert />
-
-          {/* PCP Brochure & PCP-CPD Board Resolution
-            & 2021 Amended By-Laws & PCP Research Guidelines */}
           <PcpBrochure PcpBrochureContents={PcpBrochureData} />
-
-          {/* Amended By-Laws / Research Guidelines */}
           <Guidelines />
-
-          {/* Board Resolution & IRR */}
           <BoardIRR />
-
-          {/* PCP Online Payment  */}
           <PcpPay />
-
-          {/* Update on HMO's & Media communication
-          & Recent Webinars/Health Forum For Covid-19 Vaccines */}
           <HmoMediaForum MediaComm={MediaCommData} />
-
-          {/* PCP-DOH Webinars Series */}
           <PcpDOHWebinars DOHWebinars={DOHWebinarsData} />
-
-          {/* Committee Updates */}
           <CmtteeUpdt />
-
-          {/* Contact Us */}
           <ConactUs />
         </>
       {/* )} */}
